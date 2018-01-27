@@ -8,7 +8,7 @@ public class UIBuildMode : UIPanel
     [SerializeField]
     private List<UIBuildSlot> _slots;
 
-    private List<UIBuildPartIcon> _parts;
+    private List<UIBuildPartIcon> _parts = new List<UIBuildPartIcon>();
 
     [SerializeField]
     private CanvasGroup _slotsGroup;
@@ -35,6 +35,7 @@ public class UIBuildMode : UIPanel
             icon.Init(part, this);
             _parts.Add(icon);
         }
+        _slots[0].Select();
     }
 
     public void SelectSlot(UIBuildSlot slot)

@@ -60,6 +60,11 @@ public class LinkPoint : MonoBehaviour {
 
     public void SetAttachedItem(Appendage attachment)
     {
+        if(_attachedItem != null)
+        {
+            Destroy(_attachedItem.gameObject);
+        }
+
         _attachedItem = attachment;
     }
 }
