@@ -13,6 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Bool_keys:
   - pbEnableBackfaceSelection
+  - pbIconGUI
   m_Int_keys:
   - pbHandleAlignment
   - pbDefaultEditLevel
@@ -27,8 +28,8 @@ MonoBehaviour:
   - pbCurrentMaterialPalette
   m_Color_keys: []
   m_Material_keys: []
-  m_Bool_values: 00
-  m_Int_values: 0200000000000000020000000000000001000000
+  m_Bool_values: 0000
+  m_Int_values: 0200000004000000020000000000000001000000
   m_Float_values:
   - 0
   - 0
