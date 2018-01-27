@@ -6,6 +6,8 @@ public class Thruster : Appendage {
 
     [SerializeField]
     private ParticleSystem _particles;
+    [SerializeField]
+    private Transform _thrustPoint;
 
 
     public override void OnActivateStart()
@@ -20,7 +22,7 @@ public class Thruster : Appendage {
 
     public override void OnActivateHeld()
     {
-        _coreRB.AddForceAtPosition(transform.forward * -10f, transform.position, ForceMode.Force);
+        _coreRB.AddForceAtPosition(_thrustPoint.transform.forward * -10f, _thrustPoint.transform.position, ForceMode.Force);
     }
 
 

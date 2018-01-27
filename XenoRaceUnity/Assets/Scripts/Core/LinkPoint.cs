@@ -4,15 +4,26 @@ using UnityEngine;
 
 public class LinkPoint : MonoBehaviour {
 
+    public string ID;
+
     [SerializeField]
     private string _mappedButton;
 
+    public Appendage AttachedItem
+    {
+        get
+        {
+            return _attachedItem;
+        }
+    }
     private Appendage _attachedItem;
 
     private bool _isDown;
 
     private void Update()
     {
+
+        if (!Core.Instance.PlayerInputEnabled) return;
         if (!string.IsNullOrEmpty(_mappedButton))
         {
             if (!_isDown)

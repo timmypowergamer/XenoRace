@@ -225,7 +225,15 @@ public class CanvasManager : MonoBehaviour
 		if(_autoRegister) RegisterAll(transform);
     }
 
-	public void DeactivateMode(CanvasStates nextMode)
+    private void Start()
+    {
+        if (Application.isPlaying)
+        {
+            ActivateMode(CanvasStates.Build);
+        }
+    }
+
+    public void DeactivateMode(CanvasStates nextMode)
 	{
 		for (int i = 0; i < _canvasModes.Count; i++)
 		{

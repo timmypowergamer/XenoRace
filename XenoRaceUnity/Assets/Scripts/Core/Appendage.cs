@@ -18,6 +18,7 @@ public class Appendage : MonoBehaviour
 
     [SerializeField]
     private string _id;
+    public string ID { get { return _id; } }
 
     public virtual void OnActivateStart()
     {

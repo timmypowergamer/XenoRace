@@ -5,60 +5,78 @@ using UnityEngine;
 public class Core : MonoBehaviour {
 
     [SerializeField]
-    private LinkPoint[] _attachmentPoints;
-    [SerializeField]
     private Rigidbody _rigidbody;
 
-    private Dictionary<LinkPoint, Appendage> _attachedObjects = new Dictionary<LinkPoint, Appendage>();
+    public static Core Instance;
+
+    public bool PlayerInputEnabled = false;
+
+    private Dictionary<string, LinkPoint> _linkPoints = new Dictionary<string, LinkPoint>();
 
     private void Awake()
     {
-        for(int i = 0; i < _attachmentPoints.Length; i++)
+        Instance = this;
+
+        LinkPoint[] points = GetComponentsInChildren<LinkPoint>();
+        for(int i = 0; i < points.Length; i++)
         {
-            _attachedObjects.Add(_attachmentPoints[i], null);
-            Appendage attached = _attachmentPoints[i].GetComponentInChildren<Appendage>();
+            _linkPoints.Add(points[i].ID, points[i]);
+            Appendage attached = points[i].GetComponentInChildren<Appendage>();
             if(attached != null)
             {
-                AttachAppendage(attached, _attachmentPoints[i]);
+                AttachAppendage(attached, points[i].ID);
             }
         }
     }
 
-    public void AttachAppendage(Appendage attachment, LinkPoint linkPoint)
+    public void AttachAppendage(Appendage attachment, string linkPointID)
     {
-        if (!_attachedObjects.ContainsKey(linkPoint))
+        if (!_linkPoints.ContainsKey(linkPointID))
         {
-            Debug.LogError($"'{linkPoint.name}' is not a valid attachment point!");
+            Debug.LogError($"'{linkPointID}' is not a valid attachment point!");
             return;
         }
-        if (_attachedObjects[linkPoint] != null)
+        if (_linkPoints[linkPointID].AttachedItem != null)
         {
-            Debug.LogError($"'{linkPoint.name}' already has an attachment!");
+            Debug.LogError($"'{linkPointID}' already has an attachment!");
             return;
         }
+
+        LinkPoint linkPoint = _linkPoints[linkPointID];
 
         attachment.transform.SetParent(linkPoint.transform, false);
         attachment.transform.localPosition = Vector3.zero;
         attachment.transform.localRotation = Quaternion.identity;
-        _attachedObjects[linkPoint] = attachment;
         linkPoint.SetAttachedItem(attachment);
         attachment.OnAttached(_rigidbody);
     }
 
-    public void RemoveAppendage(LinkPoint linkPoint)
+    public void RemoveAppendage(string linkPointID)
     {
-        if (!_attachedObjects.ContainsKey(linkPoint))
+        if (!_linkPoints.ContainsKey(linkPointID))
         {
-            Debug.LogError($"'{linkPoint.name}' is not a valid attachment point!");
+            Debug.LogError($"'{linkPointID}' is not a valid attachment point!");
             return;
         }
-        if (_attachedObjects[linkPoint] == null)
+        if (_linkPoints[linkPointID].AttachedItem == null)
         {
-            Debug.LogError($"'{linkPoint.name}' does not have an attachment to remove!");
+            Debug.LogError($"'{linkPointID}' does not have an attachment to remove!");
             return;
         }
 
-        linkPoint.SetAttachedItem(null);
+        _linkPoints[linkPointID].SetAttachedItem(null);
     }
 
+
+    public void ShowLinkPoint(string linkPointID)
+    {
+        if (!_linkPoints.ContainsKey(linkPointID))
+        {
+            Debug.LogError($"'{linkPointID}' is not a valid attachment point!");
+            return;
+        }
+
+        transform.rotation = Quaternion.identity;
+        transform.rotation = Quaternion.FromToRotation(_linkPoints[linkPointID].transform.position - transform.position, Camera.main.transform.position - transform.position);
+    }
 }
