@@ -2,7 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Goal : MonoBehaviour {
+/// <summary>
+/// When the goal is hit, it needs to communicate that fact to anyone that cares. 
+/// </summary>
+public class Goal : MonoBehaviour
+{
 
 	// Use this for initialization
 	void Start () {
