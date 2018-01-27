@@ -5,11 +5,7 @@ using UnityEngine;
 public class Checkpoint : MonoBehaviour
 {
     private CheckpointSystem Owner;
-    private bool Reached = false;
-    public bool HasBeenReached
-    {
-        get { return Reached; }
-    }
+    public bool Reached = false;
 
     public void SetOwner(CheckpointSystem systemObj)
     {
@@ -21,6 +17,7 @@ public class Checkpoint : MonoBehaviour
         //if this checkpoint hasn't been triggered yet and it is the player that hit it
         if (!Reached && other.CompareTag("Player"))
         {
+            Debug.Log("Checkpoint!");
             Reached = true;
             Owner.CheckpointReached(this);
         }
