@@ -39,6 +39,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4681728192501900}
+  - component: {fileID: 114263501425029378}
   m_Layer: 0
   m_Name: Check Point
   m_TagString: Untagged
@@ -54,6 +55,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4836157796810846}
+  - component: {fileID: 114137403598134890}
   m_Layer: 0
   m_Name: Target
   m_TagString: Untagged
@@ -87,6 +89,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4270961377158362}
+  - component: {fileID: 114540140128031626}
   m_Layer: 0
   m_Name: Check Points
   m_TagString: Untagged
@@ -126,7 +129,7 @@ GameObject:
   - component: {fileID: 65093675745177996}
   - component: {fileID: 23665252142168548}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Trigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -486,6 +489,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _entityType: 0
+--- !u!114 &114137403598134890
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1340798298805026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ec3d41ecf365424b96bd19e0a13b88c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114153066260352854
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -80404,6 +80418,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _entityType: 0
+--- !u!114 &114263501425029378
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1178692408291108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50352a587abdafb4a900f02080644877, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Reached: 0
 --- !u!114 &114353895395383690
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -80690,3 +80716,17 @@ MonoBehaviour:
   m_selectedFaces: 
   m_SelectedEdges: []
   m_selectedTriangles: 
+--- !u!114 &114540140128031626
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1527813618127776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 664c69f26a643a74ba414b1bb01bcd23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Checkpoints:
+  - {fileID: 114263501425029378}
+  CurrentCheckpoint: 0
