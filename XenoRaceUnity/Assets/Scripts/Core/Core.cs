@@ -22,6 +22,8 @@ public class Core : MonoBehaviour {
     public void AttachAppendage(Appendage attachment, Transform linkPoint)
     {
         if (!_attachedObjects.ContainsKey(linkPoint)) Debug.LogError($"'{linkPoint.name}' is not a valid attachment point!");
+        if (_attachedObjects[linkPoint] != null) Debug.LogError($"'{linkPoint.name}' already has an attachment!");
+
 
         attachment.transform.SetParent(linkPoint, false);
         attachment.transform.localRotation = Quaternion.identity;
