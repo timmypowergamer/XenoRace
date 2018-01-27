@@ -545,7 +545,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 185351452}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalPosition: {x: 0, y: 1, z: -13.54}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1158,11 +1158,6 @@ Prefab:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1347649182}
-    - target: {fileID: 23855264003384240, guid: 16633b20232ce9047b06e489f308d7d9,
-        type: 2}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 55714c7dd29757041a4ddbd5f09df610, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 16633b20232ce9047b06e489f308d7d9, type: 2}
   m_IsPrefabParent: 0
@@ -2492,7 +2487,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4897277625437896, guid: c25f8838ef582ef48ae5201775a621b6, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -6.34
       objectReference: {fileID: 0}
     - target: {fileID: 4897277625437896, guid: c25f8838ef582ef48ae5201775a621b6, type: 2}
       propertyPath: m_LocalRotation.x
