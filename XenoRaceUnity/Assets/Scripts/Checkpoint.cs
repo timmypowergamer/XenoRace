@@ -22,4 +22,10 @@ public class Checkpoint : MonoBehaviour
             Owner.CheckpointReached(this);
         }
     }
+
+    void OnDrawGizmos()
+    {
+        Gizmos.color = Color.green;
+        Gizmos.DrawWireSphere(transform.position, 0.2f);
+    }
 }
