@@ -36,17 +36,21 @@ public class Core : MonoBehaviour {
             Debug.LogError($"'{linkPointID}' is not a valid attachment point!");
             return;
         }
+        if(attachment == null)
+        {
+            RemoveAppendage(linkPointID);
+            return;
+        }
         if (_linkPoints[linkPointID].AttachedItem != null)
         {
-            Debug.LogError($"'{linkPointID}' already has an attachment!");
-            return;
+            RemoveAppendage(linkPointID);
         }
 
         LinkPoint linkPoint = _linkPoints[linkPointID];
 
         attachment.transform.SetParent(linkPoint.transform, false);
         attachment.transform.localPosition = Vector3.zero;
-        attachment.transform.localRotation = Quaternion.identity;
+        attachment.transform.localRotation = Quaternion.Euler(0, Random.Range(0, 360f), 0);
         linkPoint.SetAttachedItem(attachment);
         attachment.OnAttached(_rigidbody);
     }

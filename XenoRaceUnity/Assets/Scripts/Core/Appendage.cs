@@ -20,9 +20,28 @@ public class Appendage : MonoBehaviour
     private string _id;
     public string ID { get { return _id; } }
 
+    public Sprite Icon;
+
+    [SerializeField]
+    private Animator _animator;
+
+    [SerializeField]
+    private string _activeBool;
+
+    [SerializeField]
+    private string _startTrigger;
+    [SerializeField]
+    private string _endTrigger;
+
+    private void Awake()
+    {
+        if(_animator == null) _animator = GetComponentInChildren<Animator>();
+    }
+
     public virtual void OnActivateStart()
     {
-        //Debug.Log($"{_id} OnActivateStart()");
+        if (!string.IsNullOrEmpty(_activeBool)) _animator.SetBool(_activeBool, true);
+        if (!string.IsNullOrEmpty(_startTrigger)) _animator.SetTrigger(_startTrigger);
     }
 
     public virtual void OnActivateHeld()
@@ -32,7 +51,8 @@ public class Appendage : MonoBehaviour
 
     public virtual void OnActivateEnd()
     {
-        //Debug.Log($"{_id} OnActivateEnd()");
+        if (!string.IsNullOrEmpty(_activeBool)) _animator.SetBool(_activeBool, false);
+        if (!string.IsNullOrEmpty(_startTrigger)) _animator.SetTrigger(_endTrigger);
     }
 
     public virtual void OnAttached(Rigidbody coreRB)

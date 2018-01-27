@@ -12,16 +12,19 @@ public class Thruster : Appendage {
 
     public override void OnActivateStart()
     {
+        base.OnActivateStart();
         _particles.Play();
     }
 
     public override void OnActivateEnd()
     {
+        base.OnActivateEnd();
         _particles.Stop();
     }
 
     public override void OnActivateHeld()
     {
+        base.OnActivateHeld();
         _coreRB.AddForceAtPosition(_thrustPoint.transform.forward * -10f, _thrustPoint.transform.position, ForceMode.Force);
     }
 

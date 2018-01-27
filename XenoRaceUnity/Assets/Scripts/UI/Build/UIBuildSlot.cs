@@ -15,10 +15,15 @@ public class UIBuildSlot : Button {
     [SerializeField]
     private UIBuildMode _parent;
 
+    [SerializeField]
+    private Image _partIcon;
+
+#if UNITY_EDITOR
     protected override void Reset()
     {
         _parent = GetComponentInParent<UIBuildMode>();
     }
+#endif
 
     public override void OnSubmit(BaseEventData eventData)
     {
@@ -47,8 +52,22 @@ public class UIBuildSlot : Button {
 
     public void SetSelectedPart(UIBuildPartIcon part)
     {
+        if(part == _selectedPart)
+        {
+            part = null;
+        }
         _selectedPart = part;
-        Core.Instance.AttachAppendage(PartsManager.Instance.GetPartPrefab(part.PartID), _linkPointID);
-        _parent.SelectSlot(null);
+        if (_selectedPart != null)
+        {
+            Appendage newPart = Instantiate(PartsManager.Instance.GetPartPrefab(part.PartID));
+            Core.Instance.AttachAppendage(newPart, _linkPointID);
+            _partIcon.gameObject.SetActive(true);
+            _partIcon.sprite = newPart.Icon;
+        }
+        else
+        {
+            Core.Instance.RemoveAppendage(_linkPointID);
+            _partIcon.gameObject.SetActive(false);
+        }
     }
 }
