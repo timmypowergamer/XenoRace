@@ -6,7 +6,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: SkinFleshyShader
+  m_Name: Custom_CelShadingForward
   m_Shader: {fileID: 4800000, guid: a2d47a0d2fbfd654185945fb2f2618fb, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
