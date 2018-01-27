@@ -2,6 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Track the checkpoints being used for the attached race track segment. 
+/// 
+/// NOTE: Not being used at the moment!!! 
+/// </summary>
 public class CheckpointSystem : MonoBehaviour
 {
     public List<Checkpoint> Checkpoints = new List<Checkpoint>();
