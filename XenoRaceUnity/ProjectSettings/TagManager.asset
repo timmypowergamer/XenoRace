@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Fire
   layers:
   - Default
   - TransparentFX
@@ -40,4 +41,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: ScreenCanvas
+    uniqueID: 1105640885
+    locked: 0
+  - name: ImmortalScreenCanvas
+    uniqueID: 853263651
     locked: 0
