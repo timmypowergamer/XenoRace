@@ -14,6 +14,9 @@ public class DeathFloor : MonoBehaviour
     /// <param name="other">The collider that has hit us.</param>
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("DEATH FLOOR has been hit by " + other.name); 
+        if (other.CompareTag("Player"))
+        {
+            GameManager.Instance.FellOffTrack(); 
+        }
     }
 }
