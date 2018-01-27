@@ -14,9 +14,9 @@ public class CheckpointSystem : MonoBehaviour
     public void CheckpointReached(Checkpoint point)
     {
         //react to the checkpoint that was reached:
-        int newPointNumber = checkpoints.IndexOf(point);
+        int newPointNumber = checkpoints.IndexOf(point) + 1;
         if (newPointNumber > CurrentCheckpoint)//if this new checkpoint is further down the track than the last one
-            CurrentCheckpoint = checkpoints.IndexOf(point);
+            CurrentCheckpoint = newPointNumber;
     }
 
 	// Use this for initialization
