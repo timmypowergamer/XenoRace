@@ -17,14 +17,29 @@ public class TimerDisplay : MonoBehaviour {
     // Our time measurement scratchpad variables. 
     private int minutes = 0;
     private int seconds = 0;
-    private int milliseconds = 0; 
+    private int milliseconds = 0;
 
 
-	/// <summary>
+    /// <summary>
     /// Update the displayed time every frame 
     /// </summary>
-	private void Update ()
+    private void Update()
     {
-        displayText.text = GameManager.Instance.TimeLeft.ToString(); 
-	}
+        // Container for the time left 
+        float temp = GameManager.Instance.TimeLeft;
+
+        // Get minutes
+        minutes = (int)Mathf.Floor(temp / 60.0f);
+        temp -= (minutes * 60.0f);
+
+        // Get Seconds 
+        seconds = (int)Mathf.Floor(temp);
+        temp -= seconds;
+
+        // Get milliseconds 
+        milliseconds = (int)Mathf.Floor(temp * 100);
+
+        // I know there's a better way to do this with format strings, but I can't hack it to work - Alex M. 
+        displayText.text = minutes.ToString("D2") + ":" + seconds.ToString("D2") + ":" + milliseconds.ToString("D2");
+    }
 }
