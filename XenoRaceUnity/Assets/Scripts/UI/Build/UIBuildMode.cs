@@ -8,7 +8,6 @@ public class UIBuildMode : UIPanel
     [SerializeField]
     private List<UIBuildSlot> _slots;
 
-    [SerializeField]
     private List<UIBuildPartIcon> _parts;
 
     [SerializeField]
@@ -34,6 +33,7 @@ public class UIBuildMode : UIPanel
         {
             UIBuildPartIcon icon = Instantiate(_iconPrefab, _partsGrid, false);
             icon.Init(part, this);
+            _parts.Add(icon);
         }
     }
 
