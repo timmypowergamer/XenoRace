@@ -121,8 +121,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 115712184}
-  - component: {fileID: 115712185}
   - component: {fileID: 115712186}
+  - component: {fileID: 115712185}
   m_Layer: 0
   m_Name: point3
   m_TagString: Untagged
@@ -154,6 +154,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50352a587abdafb4a900f02080644877, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Reached: 0
 --- !u!65 &115712186
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -274,7 +275,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 664c69f26a643a74ba414b1bb01bcd23, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  checkpoints:
+  Checkpoints:
   - {fileID: 1752185754}
   - {fileID: 1443120025}
   - {fileID: 115712185}
@@ -368,8 +369,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1443120024}
-  - component: {fileID: 1443120025}
   - component: {fileID: 1443120026}
+  - component: {fileID: 1443120025}
   m_Layer: 0
   m_Name: point2
   m_TagString: Untagged
@@ -401,6 +402,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50352a587abdafb4a900f02080644877, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Reached: 0
 --- !u!65 &1443120026
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -421,8 +423,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1752185753}
-  - component: {fileID: 1752185754}
   - component: {fileID: 1752185755}
+  - component: {fileID: 1752185754}
   m_Layer: 0
   m_Name: point1
   m_TagString: Untagged
@@ -454,6 +456,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50352a587abdafb4a900f02080644877, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Reached: 0
 --- !u!65 &1752185755
 BoxCollider:
   m_ObjectHideFlags: 0

@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
     public float Timer = 0f;
 
     public bool EDITING = true;
-    private CheckpointSystem currentTrack;//has list of checkpoints and the total and current checkpoint
+    private CheckpointSystem CurrentTrack;//has list of checkpoints and the total and current checkpoint
 
 	// Use this for initialization
 	void Start ()
@@ -27,11 +27,11 @@ public class GameManager : MonoBehaviour
 	}
     void HandleRace()
     {
-        if (currentTrack == null)
+        if (CurrentTrack == null)
         {//need to find track checkpoints
             if (GameObject.Find("checkpoints") != null)
             {//found it
-                currentTrack = GameObject.Find("checkpoints").GetComponent<CheckpointSystem>();
+                CurrentTrack = GameObject.Find("checkpoints").GetComponent<CheckpointSystem>();
             }
             else
             {//didn't find it
@@ -42,6 +42,7 @@ public class GameManager : MonoBehaviour
         {//Handle race related stuff
             Timer = Time.deltaTime;
 
+            Score = CurrentTrack.CurrentCheckpoint;
         }
     }
 
@@ -54,7 +55,7 @@ public class GameManager : MonoBehaviour
 
     public void LoadNewTrack(string trackName)
     {
-        currentTrack = null;
+        CurrentTrack = null;
         UnityEngine.SceneManagement.SceneManager.LoadScene(trackName);
         Timer = 0f;
         Score = 0f;
@@ -63,7 +64,7 @@ public class GameManager : MonoBehaviour
     {
         if (!EDITING)
         {
-            currentTrack = null;
+            CurrentTrack = null;
             LoadNewTrack(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
             Timer = 0f;
             Score = 0f;
