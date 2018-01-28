@@ -34,6 +34,11 @@ public class Core : MonoBehaviour {
                 AttachAppendage(attached, points[i].ID);
             }
         }
+
+        if(LevelManager.Instance != null && LevelManager.Instance.PartsList != null)
+        {
+            SetPartsData(LevelManager.Instance.PartsList);
+        }
     }
 
     public void AttachAppendage(Appendage attachment, string linkPointID)

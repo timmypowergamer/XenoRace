@@ -17,6 +17,8 @@ public class LevelManager : MonoBehaviour {
     private static LevelManager _instance;
     public static LevelManager Instance { get { return _instance; } }
 
+    public List<Core.PartsData> PartsList = null;
+
     private void Awake()
     {
         if(_instance != null)
@@ -30,17 +32,13 @@ public class LevelManager : MonoBehaviour {
 
     public void GoToRaceFromBuildScene()
     {
-        List<Core.PartsData> partsList = Core.Instance.GetPartsData();
-        Debug.Log("Going to race!");
+        PartsList = Core.Instance.GetPartsData();
         SceneManager.LoadScene(_raceSceneName);
-        Core.Instance.SetPartsData(partsList);
     }
 
     public void GoToBuildFromRaceScene()
     {
-        List<Core.PartsData> partsList = Core.Instance.GetPartsData();
         SceneManager.LoadScene(_buildSceneName);
-        Core.Instance.SetPartsData(partsList);
     }
 
     public void GoToBuildFromMenu()
@@ -50,13 +48,13 @@ public class LevelManager : MonoBehaviour {
 
     public void RestartRaceScene()
     {
-        List<Core.PartsData> partsList = Core.Instance.GetPartsData();
         SceneManager.LoadScene(_raceSceneName);
-        Core.Instance.SetPartsData(partsList);
     }
 
     public void GoToMainMenu()
     {
         SceneManager.LoadScene(_mainMenuSceneName);
     }
+
+    
 }
