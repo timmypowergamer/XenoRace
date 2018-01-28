@@ -83,4 +83,14 @@ public class Core : MonoBehaviour {
         transform.rotation = Quaternion.identity;
         transform.rotation = Quaternion.FromToRotation(_linkPoints[linkPointID].transform.position - transform.position, Camera.main.transform.position - transform.position);
     }
+
+    /// <summary>
+    /// Enable or disable the player's ability to provide input. 
+    /// </summary>
+    /// <param name="enable">If true, we should allow the player to give the core input. Otherwise, we should not.</param>
+    public void EnablePlayerInput(bool enable)
+    {
+        // Concern: Global Side Effects
+        this.PlayerInputEnabled = enable; 
+    }
 }

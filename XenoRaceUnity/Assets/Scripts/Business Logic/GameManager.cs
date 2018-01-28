@@ -135,7 +135,8 @@ public class GameManager : MonoBehaviour
     {
         isGameOver = true;
         SetMessage("You ran out of time!"); 
-        CanvasManager.instance.Get<GameOverUIPanel>(UIPanelID.GameOver).Open(); 
+        CanvasManager.instance.Get<GameOverUIPanel>(UIPanelID.GameOver).Open();
+        Core.Instance.EnablePlayerInput(false); 
     }
 
     /// <summary>
@@ -156,6 +157,7 @@ public class GameManager : MonoBehaviour
         isGameOver = true; 
         SetMessage("You fell off the track!");
         CanvasManager.instance.Get<GameOverUIPanel>(UIPanelID.GameOver).Open();
+        Core.Instance.EnablePlayerInput(false);
     }
 
     public void PlayerEnteredGoal()
@@ -163,6 +165,7 @@ public class GameManager : MonoBehaviour
         isGameOver = true;
         this.SetMessage("You win! You beat the alien derby!"); 
         CanvasManager.instance.Get<GameOverUIPanel>(UIPanelID.GameOver).Open();
+        Core.Instance.EnablePlayerInput(false);
     }
 
     /// <summary>

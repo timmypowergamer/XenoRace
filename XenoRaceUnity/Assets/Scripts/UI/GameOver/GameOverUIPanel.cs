@@ -22,22 +22,24 @@ public class GameOverUIPanel : UIPanel
     {
         base.Open(transitionTrigger);
 
-        selectedButton.Select(); 
+        selectedButton.Select();
+        message.text = GameManager.Instance.GameOverMessage; 
     }
 
     public void Build()
     {
-        Debug.Log("BUILD PRESSED"); 
+        Debug.Log("BUILD PRESSED");
+        Close(); 
     }
 
     public void Retry()
     {
-        Debug.Log("RETRY PRESSED"); 
+        Debug.Log("RETRY PRESSED");
+        Close(); 
     }
 
     public void Quit()
     {
-        Debug.Log("QUIT PRESSED"); 
+        Application.Quit();
     }
-
 }
