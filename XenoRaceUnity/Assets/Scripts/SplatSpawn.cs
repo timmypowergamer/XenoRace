@@ -15,7 +15,7 @@ public class SplatSpawn : MonoBehaviour
     }
     void OnParticleCollision(GameObject other)
     {
-        int totalCollisions = part.GetCollisionEvents(other, events);
+        part.GetCollisionEvents(other, events);
 
         foreach (ParticleCollisionEvent thing in events)
         {
