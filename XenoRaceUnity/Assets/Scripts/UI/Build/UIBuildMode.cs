@@ -85,6 +85,10 @@ public class UIBuildMode : UIPanel
             {
                 SelectSlot(null);
             }
+            if (Input.GetButtonDown("Start"))
+            {
+                LevelManager.Instance.GoToRaceFromBuildScene();
+            }
         }
     }
 }
