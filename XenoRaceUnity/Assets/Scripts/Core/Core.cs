@@ -7,7 +7,22 @@ public class Core : MonoBehaviour {
     [SerializeField]
     private Rigidbody _rigidbody;
 
-    public static Core Instance;
+    private static Core _instance;
+    public static Core Instance
+    {
+        get
+        {
+            if (_instance == null)
+            {
+                GameObject obj = GameObject.Find("Core");
+                if (obj != null)
+                {
+                    _instance = obj.GetComponent<Core>();
+                }
+            }
+            return _instance;
+        }
+    }
 
     [System.Serializable]
     public struct PartsData
@@ -22,7 +37,7 @@ public class Core : MonoBehaviour {
 
     private void Awake()
     {
-        Instance = this;
+        _instance = this;
 
         LinkPoint[] points = GetComponentsInChildren<LinkPoint>();
         for(int i = 0; i < points.Length; i++)

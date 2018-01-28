@@ -51,6 +51,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d87b25d93ef9f84a9c9e486ccf78fad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _raceSceneName: ryan-test
+  _raceSceneName: Track1
   _buildSceneName: Build
-  _mainMenuSceneName: Menu
+  _mainMenuSceneName: MainMenu
+  PartsList: []

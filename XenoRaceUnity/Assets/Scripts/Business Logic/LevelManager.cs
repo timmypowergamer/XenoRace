@@ -34,35 +34,36 @@ public class LevelManager : MonoBehaviour {
     {
         CanvasManager.instance.DeactivateMode(CanvasStates.Play);
         PartsList = Core.Instance.GetPartsData();
-        SceneManager.LoadScene(_raceSceneName);
-        CanvasManager.instance.ActivateMode(CanvasStates.Play);
+        StartCoroutine(doSceneChange(_raceSceneName, CanvasStates.Play));
     }
 
     public void GoToBuildFromRaceScene()
     {
         CanvasManager.instance.DeactivateMode(CanvasStates.Build);
-        SceneManager.LoadScene(_buildSceneName);
-        CanvasManager.instance.ActivateMode(CanvasStates.Build);
+        StartCoroutine(doSceneChange(_buildSceneName, CanvasStates.Build));
     }
 
     public void GoToBuildFromMenu()
     {
         CanvasManager.instance.DeactivateMode(CanvasStates.Build);
-        SceneManager.LoadScene(_buildSceneName);
-        CanvasManager.instance.ActivateMode(CanvasStates.Build);
+        StartCoroutine(doSceneChange(_buildSceneName, CanvasStates.Build));
     }
 
     public void RestartRaceScene()
     {
-        SceneManager.LoadScene(_raceSceneName);
+        StartCoroutine(doSceneChange(_raceSceneName, CanvasStates.Play));
     }
 
     public void GoToMainMenuFromRace()
     {
         CanvasManager.instance.DeactivateMode(CanvasStates.Menu);
-        SceneManager.LoadScene(_mainMenuSceneName);
-        CanvasManager.instance.ActivateMode(CanvasStates.Menu);
+        StartCoroutine(doSceneChange(_mainMenuSceneName, CanvasStates.Menu));
     }
 
+    private IEnumerator doSceneChange(string sceneName, CanvasStates nextMode)
+    {
+        yield return SceneManager.LoadSceneAsync(sceneName);
+        CanvasManager.instance.ActivateMode(nextMode);
+    }
     
 }

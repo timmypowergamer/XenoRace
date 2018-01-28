@@ -24,7 +24,8 @@ public enum UIPanelID
     NONE = 0,
     HUD = 1,
     Build = 2, 
-    GameOver = 3
+    GameOver = 3,
+    MainMenu = 4
 }
 
 public class CanvasManager : MonoBehaviour
