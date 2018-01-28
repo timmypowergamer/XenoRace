@@ -5,6 +5,7 @@ using UnityEngine.EventSystems;
 public class ControllerRefocus : MonoBehaviour
 {
     private GameObject _lastSelected;
+
     void Update()
     {
         if(_lastSelected != null)

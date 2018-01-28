@@ -32,18 +32,24 @@ public class LevelManager : MonoBehaviour {
 
     public void GoToRaceFromBuildScene()
     {
+        CanvasManager.instance.DeactivateMode(CanvasStates.Play);
         PartsList = Core.Instance.GetPartsData();
         SceneManager.LoadScene(_raceSceneName);
+        CanvasManager.instance.ActivateMode(CanvasStates.Play);
     }
 
     public void GoToBuildFromRaceScene()
     {
+        CanvasManager.instance.DeactivateMode(CanvasStates.Build);
         SceneManager.LoadScene(_buildSceneName);
+        CanvasManager.instance.ActivateMode(CanvasStates.Build);
     }
 
     public void GoToBuildFromMenu()
     {
+        CanvasManager.instance.DeactivateMode(CanvasStates.Build);
         SceneManager.LoadScene(_buildSceneName);
+        CanvasManager.instance.ActivateMode(CanvasStates.Build);
     }
 
     public void RestartRaceScene()
@@ -51,9 +57,11 @@ public class LevelManager : MonoBehaviour {
         SceneManager.LoadScene(_raceSceneName);
     }
 
-    public void GoToMainMenu()
+    public void GoToMainMenuFromRace()
     {
+        CanvasManager.instance.DeactivateMode(CanvasStates.Menu);
         SceneManager.LoadScene(_mainMenuSceneName);
+        CanvasManager.instance.ActivateMode(CanvasStates.Menu);
     }
 
     
