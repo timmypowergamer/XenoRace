@@ -8,7 +8,7 @@
 		_ColorRamp2("Ramp2 (RGB)", 2D) = "white" {}
         _MixRamp2("Mixing Factor Ramp2", Range (-1, 1)) = 0.0
 		_SkinTex("Skin texture (RGB)", 2D) = "white" {}
-        _SkinTexNormalMix("Skin Normal Factor", Range (1, 10)) = 2
+        _SkinTexNormalMix("Skin Normal Factor", Range (0, 20)) = 2
         _SkinTexMix("SkinFactor", Range (0, 1)) = 0.0
 	}
 	SubShader {
