@@ -106,7 +106,25 @@ public class GameManager : MonoBehaviour
         {
             IncrementTimer();
         }
-   
+
+        bool pauseInput = Input.GetButtonDown("Start"); 
+
+        if(pauseInput && !isPaused)
+        {
+            isPaused = true;
+            Debug.Log("PAUSED");
+            SetMessage("PAUSE MENU");
+            CanvasManager.instance.Get<GameOverUIPanel>(UIPanelID.GameOver).Open();
+            Time.timeScale = 0; 
+
+        } else if (pauseInput && isPaused)
+        {
+            isPaused = false;
+            Debug.Log("UNPAUSED");
+            CanvasManager.instance.Get<GameOverUIPanel>(UIPanelID.GameOver).Close();
+            Time.timeScale = 1; 
+
+        }
     }
 
     /// <summary>
@@ -132,7 +150,9 @@ public class GameManager : MonoBehaviour
     private void InitializeRace()
     {
         isGameOver = false;
-        timeTaken = 0f; 
+        isPaused = false;
+        timeTaken = 0f;
+        Time.timeScale = 1f; 
     }
 
     /// <summary>
@@ -169,6 +189,7 @@ public class GameManager : MonoBehaviour
     public void BackToBuild()
     {
         LevelManager.Instance.GoToBuildFromRaceScene();
+        Time.timeScale = 1f; 
         GameManager.Instance.Kill(); 
     }
 
