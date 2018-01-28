@@ -35,6 +35,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 224981260522493014}
+  - component: {fileID: 114405035577459022}
   m_Layer: 5
   m_Name: Time Display
   m_TagString: Untagged
@@ -73,6 +74,18 @@ MonoBehaviour:
   _id: 1
   _startsActive: 1
   _animator: {fileID: 0}
+--- !u!114 &114405035577459022
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1745851895607236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2086b48130ed9f4eb9a6d60591bf5f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  displayText: {fileID: 114475269538157678}
 --- !u!114 &114475269538157678
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -93,12 +106,12 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 40
+    m_Font: {fileID: 12800000, guid: 75978702dc0d758418a20fdaaef77224, type: 3}
+    m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 4
-    m_MaxSize: 40
+    m_MaxSize: 50
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1

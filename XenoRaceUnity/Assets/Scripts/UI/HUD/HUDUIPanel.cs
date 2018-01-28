@@ -7,5 +7,8 @@ using UnityEngine;
 /// </summary>
 public class HUDUIPanel : UIPanel
 {
+    private static HUDUIPanel instance; 
+    public static HUDUIPanel Instance {  get { return instance; } }
+
 
 }
