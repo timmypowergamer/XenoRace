@@ -28,18 +28,18 @@ public class GameOverUIPanel : UIPanel
 
     public void Build()
     {
-        Debug.Log("BUILD PRESSED");
+        GameManager.Instance.BackToBuild(); 
         Close(); 
     }
 
     public void Retry()
     {
-        Debug.Log("RETRY PRESSED");
+        GameManager.Instance.RetryLevel(); 
         Close(); 
     }
 
     public void Quit()
     {
-        Application.Quit();
+        GameManager.Instance.ExitGame(); 
     }
 }

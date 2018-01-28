@@ -175,4 +175,21 @@ public class GameManager : MonoBehaviour
         GameManager.instance = null;
         Destroy(this); 
     }
+
+    public void BackToBuild()
+    {
+        LevelManager.Instance.GoToBuildFromRaceScene();
+        GameManager.Instance.Kill(); 
+    }
+
+    public void RetryLevel()
+    {
+        LevelManager.Instance.RestartRaceScene();
+        GameManager.Instance.InitializeRace(); 
+    }
+
+    public void ExitGame()
+    {
+        Application.Quit(); 
+    }
 }
