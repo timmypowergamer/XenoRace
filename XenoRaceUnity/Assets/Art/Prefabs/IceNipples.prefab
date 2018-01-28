@@ -36,6 +36,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4887530919418756}
+  - component: {fileID: 65801174685937302}
   m_Layer: 0
   m_Name: IceNipples
   m_TagString: Untagged
@@ -62,14 +63,14 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1997075360403048}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.043, y: -0.334, z: 0.181}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0.22817583, y: -0.2934241, z: -0.07233941, w: 0.92552966}
+  m_LocalPosition: {x: 7.83, y: -243.04, z: 391.34}
+  m_LocalScale: {x: 1.7606633, y: 1.7606633, z: 1.7606633}
   m_Children:
   - {fileID: 4806709027005660}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 22.328001, y: -38.525, z: -16.829}
 --- !u!23 &23694793609493966
 MeshRenderer:
   m_ObjectHideFlags: 1
@@ -111,3 +112,15 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1623780160383540}
   m_Mesh: {fileID: 4300000, guid: b017728067dc38a43aa2192e1c85620a, type: 3}
+--- !u!65 &65801174685937302
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1997075360403048}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.42, y: 0.47, z: 2.23}
+  m_Center: {x: 0, y: 0.45, z: 0}
