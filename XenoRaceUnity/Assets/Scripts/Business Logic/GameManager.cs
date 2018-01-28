@@ -38,7 +38,7 @@ public class GameManager : MonoBehaviour
     /// <summary>
     /// Measures if the game is over. 
     /// </summary>
-    private bool isGameOver = false; 
+    private bool isGameOver = false;
 
     #endregion 
 
@@ -61,6 +61,15 @@ public class GameManager : MonoBehaviour
         get
         {
             return isGameOver; 
+        }
+    }
+
+    private string gameOverMsg = ""; 
+    public string GameOverMessage
+    {
+        get
+        {
+            return gameOverMsg;
         }
     }
 
@@ -114,13 +123,20 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    private void SetMessage(string goMessage)
+    {
+        gameOverMsg = goMessage; 
+    }
+
     /// <summary>
     /// Function to call if the player has run out of time. 
     /// </summary>
     private void TimedOut()
     {
-        isGameOver = true; 
-        Debug.Log("PLAYER HAS TIMED OUT"); 
+        isGameOver = true;
+        SetMessage("You ran out of time!"); 
+        CanvasManager.instance.Get<GameOverUIPanel>(UIPanelID.GameOver).Open();
+        Core.Instance.EnablePlayerInput(false); 
     }
 
     /// <summary>
@@ -129,7 +145,7 @@ public class GameManager : MonoBehaviour
     private void InitializeRace()
     {
         isGameOver = false;
-        timeLeft = startingSeconds; 
+        timeLeft = startingSeconds;
     }
 
     /// <summary>
@@ -137,12 +153,18 @@ public class GameManager : MonoBehaviour
     /// </summary>
     public void FellOffTrack()
     {
-        Debug.Log("PLAYER FELL OFF THE TRACK"); 
+        isGameOver = true;
+        SetMessage("You fell off the track!");
+        CanvasManager.instance.Get<GameOverUIPanel>(UIPanelID.GameOver).Open();
+        Core.Instance.EnablePlayerInput(false);
     }
 
     public void PlayerEnteredGoal()
     {
-        Debug.Log("PLAYER ENTERED THE GOAL TRIGGER"); 
+        isGameOver = true;
+        this.SetMessage("You win! You beat the alien derby!"); 
+        CanvasManager.instance.Get<GameOverUIPanel>(UIPanelID.GameOver).Open();
+        Core.Instance.EnablePlayerInput(false);
     }
 
     /// <summary>
