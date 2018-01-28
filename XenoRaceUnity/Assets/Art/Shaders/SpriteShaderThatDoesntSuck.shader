@@ -1,5 +1,7 @@
 ﻿// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
 
+// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
 Shader "Sprites/Default"
 {
 	Properties
@@ -48,7 +50,8 @@ Shader "Sprites/Default"
 				float4 vertex   : SV_POSITION;
 				fixed4 color    : COLOR;
 				float2 texcoord  : TEXCOORD0;
-                float4 screenPos : TEXCOORD1;
+                //float4 screenPos : TEXCOORD1;
+                float dist : TEXCOORD1;
 			};
 			
 			fixed4 _Color;
@@ -63,8 +66,10 @@ Shader "Sprites/Default"
 				#ifdef PIXELSNAP_ON
 				OUT.vertex = UnityPixelSnap (OUT.vertex);
 				#endif
+                float k = length(ObjSpaceViewDir(IN.vertex));
+                OUT.dist = k*k*k;
                 // compute depth (screenPos is a float4)
-                OUT.screenPos = ComputeScreenPos(OUT.vertex);
+                //OUT.screenPos = ComputeScreenPos(OUT.vertex);
 				return OUT;
 			}
 
@@ -93,14 +98,8 @@ Shader "Sprites/Default"
                     
 				c.rgb *= c.a;
                 // sample camera depth texture
-                float4 s = UNITY_PROJ_COORD(IN.screenPos);
-                float4 depthSample = SAMPLE_DEPTH_TEXTURE_PROJ(_CameraDepthTexture, s);
-                float depth = LinearEyeDepth(depthSample).r;
-                if(depth > 4) {
-                    float dist = length(ObjSpaceViewDir(IN.vertex));
-                    if(dist > _StephensMagicDepthCutoffValue) {
-                        c.a *= 0;
-                    }
+                if(IN.dist > _StephensMagicDepthCutoffValue) {
+                    c.a *= 0;
                 }
 				return c;
 			}
