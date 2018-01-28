@@ -20,8 +20,7 @@ public class SplatSpawn : MonoBehaviour
         foreach (ParticleCollisionEvent thing in events)
         {
             GameObject obj = Instantiate(splatPrefab, thing.intersection, Quaternion.Euler(thing.normal));
-            //Debug.Log("col= " + thing.intersection);
-            //Debug.Break();
+            obj.transform.parent = other.transform;//parent it to the thing we hit
             obj.transform.Rotate(0f, Random.Range(0f, 240f), 0f);
         }
     }
