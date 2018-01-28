@@ -7,12 +7,17 @@ public class AudioMessages : MonoBehaviour
     [Header("Send 'Starting' or 'Stopping' messages.")]
     public AudioSource clip;
 
-	void Starting () {
+	void Starting ()
+    {
         if (!clip.isPlaying)
+        {
+            clip.pitch = Random.Range(0.5f, 2f);
             clip.Play();
+        }
 	}
 	
-	void Stopping () {
+	void Stopping ()
+    {
         clip.Stop();
 	}
 }
