@@ -25,6 +25,12 @@ public class TimerDisplay : MonoBehaviour {
     /// </summary>
     private void Update()
     {
+        // HACK: Just Squelching null issues 
+        if (GameManager.Instance == null)
+        {
+            return; 
+        }
+
         // Container for the time left 
         float temp = GameManager.Instance.TimeLeft;
 
