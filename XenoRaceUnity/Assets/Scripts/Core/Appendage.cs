@@ -52,7 +52,7 @@ public class Appendage : MonoBehaviour
     public virtual void OnActivateEnd()
     {
         if (!string.IsNullOrEmpty(_activeBool)) _animator.SetBool(_activeBool, false);
-        if (!string.IsNullOrEmpty(_startTrigger)) _animator.SetTrigger(_endTrigger);
+        if (!string.IsNullOrEmpty(_endTrigger)) _animator.SetTrigger(_endTrigger);
     }
 
     public virtual void OnAttached(Rigidbody coreRB)

@@ -87,6 +87,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4299565677911312}
   - component: {fileID: 95272299791708332}
+  - component: {fileID: 114687991485068588}
   m_Layer: 8
   m_Name: PussBall
   m_TagString: Untagged
@@ -236,7 +237,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1331540411218790}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.065, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4029639042056004}
@@ -277,7 +278,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1896825276764068}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.5498104, y: -1.3108425, z: -11.648242}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4299565677911312}
@@ -353,8 +354,37 @@ MonoBehaviour:
   _activeBool: 
   _startTrigger: blowup
   _endTrigger: 
-  force: 1
-  radius: 0.25
+  force: 10
+  radius: 0.5
+--- !u!114 &114687991485068588
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1331540411218790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0bc3ca7cd1c4fd40aff103443d7ecab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ForwardedEvents:
+  - EventID: DoExplosion
+    Event:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 114669106583134758}
+          m_MethodName: FinishedBlowingUp
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
 --- !u!135 &135218163447274570
 SphereCollider:
   m_ObjectHideFlags: 1
