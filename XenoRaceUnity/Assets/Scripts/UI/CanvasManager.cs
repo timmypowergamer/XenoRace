@@ -32,6 +32,9 @@ public class CanvasManager : MonoBehaviour
 	[SerializeField]
 	private bool _autoRegister = true;
 
+    [SerializeField]
+    private CanvasStates _initialState;
+
 	private static CanvasManager _instance;
 	public static CanvasManager instance
 	{
@@ -229,7 +232,7 @@ public class CanvasManager : MonoBehaviour
     {
         if (Application.isPlaying)
         {
-            ActivateMode(CanvasStates.Build);
+            ActivateMode(_initialState);
         }
     }
 
