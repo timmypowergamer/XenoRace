@@ -38,7 +38,7 @@ public class GameManager : MonoBehaviour
     /// <summary>
     /// Measures if the game is over. 
     /// </summary>
-    private bool isGameOver = false; 
+    private bool isGameOver = false;
 
     #endregion 
 
@@ -145,7 +145,7 @@ public class GameManager : MonoBehaviour
     private void InitializeRace()
     {
         isGameOver = false;
-        timeLeft = startingSeconds; 
+        timeLeft = startingSeconds;
     }
 
     /// <summary>
@@ -153,8 +153,7 @@ public class GameManager : MonoBehaviour
     /// </summary>
     public void FellOffTrack()
     {
-        Debug.Log("FELL OFF TRACK"); 
-        isGameOver = true; 
+        isGameOver = true;
         SetMessage("You fell off the track!");
         CanvasManager.instance.Get<GameOverUIPanel>(UIPanelID.GameOver).Open();
         Core.Instance.EnablePlayerInput(false);
