@@ -26,30 +26,30 @@ public class GameManager : MonoBehaviour
     #region GameManager CoreVariables 
 
     /// <summary>
-    /// How many seconds we start with for our track. (Should live in another data class?)
-    /// </summary>
-    [SerializeField] private int startingSeconds = 60;
-
-    /// <summary>
     /// How much time is left in seconds. 
     /// </summary>
-    private float timeLeft;
+    private float timeTaken;
 
     /// <summary>
     /// Measures if the game is over. 
     /// </summary>
     private bool isGameOver = false;
 
+    /// <summary>
+    /// Boolean to track if we are paused. 
+    /// </summary>
+    private bool isPaused = false; 
+
     #endregion 
 
     /// <summary>
     /// The remaining time in seconds. 
     /// </summary>
-    public float TimeLeft
+    public float TimeTaken
     {
         get
         {
-            return timeLeft; 
+            return timeTaken; 
         }
     }
 
@@ -102,41 +102,28 @@ public class GameManager : MonoBehaviour
     /// </summary>
     private void Update()
     {
-        if(timeLeft > 0 && !isGameOver)
+        if(!isGameOver &&!isPaused)
         {
-            DecrementTimer();
+            IncrementTimer();
         }
    
     }
 
     /// <summary>
-    /// Decrement our timer. If we hit zero, then we need to call whoever cares. 
+    /// Increment our timer.
     /// </summary>
-    private void DecrementTimer()
+    private void IncrementTimer()
     {
-        timeLeft -= Time.deltaTime;
-        timeLeft = timeLeft < 0 ? 0 : timeLeft; // No negative times. 
-
-        if(timeLeft == 0)
-        {
-            TimedOut(); 
-        }
-    }
-
-    private void SetMessage(string goMessage)
-    {
-        gameOverMsg = goMessage; 
+        timeTaken += Time.deltaTime;
     }
 
     /// <summary>
-    /// Function to call if the player has run out of time. 
+    /// Set the GameOver Menu's message bar to something relevant to our context. 
     /// </summary>
-    private void TimedOut()
+    /// <param name="goMessage"></param>
+    private void SetMessage(string goMessage)
     {
-        isGameOver = true;
-        SetMessage("You ran out of time!"); 
-        CanvasManager.instance.Get<GameOverUIPanel>(UIPanelID.GameOver).Open();
-        Core.Instance.EnablePlayerInput(false); 
+        gameOverMsg = goMessage; 
     }
 
     /// <summary>
@@ -145,7 +132,7 @@ public class GameManager : MonoBehaviour
     private void InitializeRace()
     {
         isGameOver = false;
-        timeLeft = startingSeconds;
+        timeTaken = 0f; 
     }
 
     /// <summary>
@@ -159,6 +146,9 @@ public class GameManager : MonoBehaviour
         Core.Instance.EnablePlayerInput(false);
     }
 
+    /// <summary>
+    /// If the player has entered the goal area, then he has won the game!
+    /// </summary>
     public void PlayerEnteredGoal()
     {
         isGameOver = true;

@@ -32,7 +32,7 @@ public class TimerDisplay : MonoBehaviour {
         }
 
         // Container for the time left 
-        float temp = GameManager.Instance.TimeLeft;
+        float temp = GameManager.Instance.TimeTaken;
 
         // Get minutes
         minutes = (int)Mathf.Floor(temp / 60.0f);
