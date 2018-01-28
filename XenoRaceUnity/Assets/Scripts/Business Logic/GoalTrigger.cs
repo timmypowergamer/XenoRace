@@ -15,6 +15,9 @@ public class GoalTrigger : MonoBehaviour
     /// <param name="other">The collider that entered our trigger.</param>
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("GOAL TRIGGER has been entered by " + other.name); 
+        if (other.CompareTag("Player"))
+        {
+            GameManager.Instance.PlayerEnteredGoal();
+        } 
     }
 }
