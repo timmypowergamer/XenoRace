@@ -179,6 +179,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _autoRegister: 1
+  _initialState: 0
   _screenCanvas: {fileID: 1441759200743876}
   _worldCanvas: {fileID: 0}
   _immortalScreenCanvas: {fileID: 1303088329637264}
@@ -191,7 +192,7 @@ MonoBehaviour:
     - {fileID: 1408779361654690, guid: b487a58c77a37f247bb1dfe6cc74f4ed, type: 2}
     canvasType: 1
   - ModeName: Game Over
-    ActiveStates: 01000000
+    ActiveStates: 03000000
     Prefabs:
     - {fileID: 1296489710881150, guid: 7ecea7151bae4ee478c3a6fad74c4aef, type: 2}
     canvasType: 1

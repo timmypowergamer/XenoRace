@@ -64,6 +64,15 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    private string gameOverMsg = ""; 
+    public string GameOverMessage
+    {
+        get
+        {
+            return gameOverMsg;
+        }
+    }
+
     /// <summary>
     /// Enforce our singleton-itude on awake. If we are the only game manager in the scene, then we *are* the 
     /// instance. Otherwise, we commit hara-kiri. 
@@ -114,12 +123,18 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    private void SetMessage(string goMessage)
+    {
+        gameOverMsg = goMessage; 
+    }
+
     /// <summary>
     /// Function to call if the player has run out of time. 
     /// </summary>
     private void TimedOut()
     {
         isGameOver = true;
+        SetMessage("You ran out of time!"); 
         CanvasManager.instance.Get<GameOverUIPanel>(UIPanelID.GameOver).Open(); 
     }
 
@@ -137,12 +152,17 @@ public class GameManager : MonoBehaviour
     /// </summary>
     public void FellOffTrack()
     {
-        Debug.Log("PLAYER FELL OFF THE TRACK"); 
+        Debug.Log("FELL OFF TRACK"); 
+        isGameOver = true; 
+        SetMessage("You fell off the track!");
+        CanvasManager.instance.Get<GameOverUIPanel>(UIPanelID.GameOver).Open();
     }
 
     public void PlayerEnteredGoal()
     {
-        Debug.Log("PLAYER ENTERED THE GOAL TRIGGER"); 
+        isGameOver = true;
+        this.SetMessage("You win! You beat the alien derby!"); 
+        CanvasManager.instance.Get<GameOverUIPanel>(UIPanelID.GameOver).Open();
     }
 
     /// <summary>

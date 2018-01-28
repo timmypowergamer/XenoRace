@@ -11,6 +11,8 @@ public class GameOverUIPanel : UIPanel
     [SerializeField]
     private Text message;
 
+    [SerializeField]
+    private Button selectedButton; 
 
     /// <summary>
     /// When we open up, we need to set the message and highlight our first button. 
@@ -20,7 +22,7 @@ public class GameOverUIPanel : UIPanel
     {
         base.Open(transitionTrigger);
 
-
+        selectedButton.Select(); 
     }
 
     public void Build()
