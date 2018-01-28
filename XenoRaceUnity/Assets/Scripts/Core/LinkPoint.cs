@@ -19,6 +19,7 @@ public class LinkPoint : MonoBehaviour {
     private Appendage _attachedItem;
 
     private bool _isDown;
+    private float _lastActivated;
 
     private void Update()
     {
@@ -33,6 +34,7 @@ public class LinkPoint : MonoBehaviour {
                     _isDown = true;
                     if(_attachedItem != null)
                     {
+                        if (Time.realtimeSinceStartup - _lastActivated < _attachedItem.ReTriggerDelay) return;
                         _attachedItem.OnActivateStart();
                     }
                 }

@@ -33,13 +33,15 @@ public class Appendage : MonoBehaviour
     [SerializeField]
     private string _endTrigger;
 
+    public float ReTriggerDelay = 0f;
+
     private void Awake()
     {
         if(_animator == null) _animator = GetComponentInChildren<Animator>();
     }
 
     public virtual void OnActivateStart()
-    {
+    {        
         if (!string.IsNullOrEmpty(_activeBool)) _animator.SetBool(_activeBool, true);
         if (!string.IsNullOrEmpty(_startTrigger)) _animator.SetTrigger(_startTrigger);
     }
