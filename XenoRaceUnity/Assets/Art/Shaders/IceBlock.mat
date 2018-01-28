@@ -8,7 +8,7 @@ Material:
   m_PrefabInternal: {fileID: 0}
   m_Name: IceBlock
   m_Shader: {fileID: 4800000, guid: 215af1b64d0a9fc408fe65936acd0ef5, type: 3}
-  m_ShaderKeywords: 
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -25,5 +25,5 @@ Material:
     m_Floats:
     - _DepthFactor: 0.61
     m_Colors:
-    - _Color: {r: 0.2711938, g: 0.65224326, b: 0.9705882, a: 1}
-    - _EdgeColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.27058825, g: 0.6509804, b: 0.9686275, a: 0.316}
+    - _EdgeColor: {r: 0.016273785, g: 0.0307518, b: 0.31617647, a: 1}

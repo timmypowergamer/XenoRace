@@ -14,6 +14,10 @@
 
 SubShader
 {
+Cull Off
+Lighting Off
+Fog { Mode Off }
+Blend SrcAlpha OneMinusSrcAlpha
 Pass
 {
 
