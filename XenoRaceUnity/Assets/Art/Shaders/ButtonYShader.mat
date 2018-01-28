@@ -26,6 +26,6 @@ Material:
     - PixelSnap: 0
     - _Glossiness: 0.5
     - _Metallic: 0
-    - _StephensMagicDepthCutoffValue: 55005
+    - _StephensMagicDepthCutoffValue: 43214
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}

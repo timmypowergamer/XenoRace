@@ -22,5 +22,6 @@ public class SkyCamFollow : MonoBehaviour {
         transform.position += delta * ParallaxFactor;
 
         _lastPos = _transToFollow.position;
+        transform.rotation = _transToFollow.rotation;
     }
 }

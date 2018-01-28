@@ -115,7 +115,7 @@ Transform:
   m_GameObject: {fileID: 1512143257454950}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_Children:
   - {fileID: 4801374217633532}
   - {fileID: 4882110271613330}
@@ -144,7 +144,7 @@ Transform:
   m_GameObject: {fileID: 1097862812319740}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4351939744002266}
   m_Father: {fileID: 0}
@@ -305,9 +305,9 @@ MonoBehaviour:
   _startTrigger: spike
   _endTrigger: 
   ReTriggerDelay: 2
-  ImpulseSpeed: 330
+  ImpulseSpeed: 400
   ForceOrigin: {fileID: 4628319288317154}
-  ForceHitRadius: 1
+  ForceHitRadius: 2.5
 --- !u!114 &114992393294667004
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -7,6 +7,10 @@ public class Core : MonoBehaviour {
     [SerializeField]
     private Rigidbody _rigidbody;
 
+    private Quaternion _targetRotation;
+    private Quaternion _startRotation;
+    private float delta = 0f;
+
     private static Core _instance;
     public static Core Instance
     {
@@ -32,6 +36,7 @@ public class Core : MonoBehaviour {
     }
 
     public bool PlayerInputEnabled = false;
+    private string _tempid;
 
     private Dictionary<string, LinkPoint> _linkPoints = new Dictionary<string, LinkPoint>();
 
@@ -106,8 +111,15 @@ public class Core : MonoBehaviour {
             return;
         }
 
-        transform.rotation = Quaternion.identity;
-        transform.rotation = Quaternion.FromToRotation(_linkPoints[linkPointID].transform.position - transform.position, Camera.main.transform.position - transform.position);
+        if (_tempid == linkPointID) return;
+
+        delta = 0;
+        _startRotation = transform.rotation;
+        //transform.rotation = Quaternion.identity;
+        //transform.rotation = Quaternion.FromToRotation(_linkPoints[linkPointID].transform.position - transform.position, (Vector3.up * 50) - transform.position);
+        _targetRotation = Quaternion.FromToRotation(_linkPoints[linkPointID].transform.position - transform.position, Vector3.up);
+        _tempid = linkPointID;
+        //_targetRotation = Quaternion.LookRotation(_linkPoints[linkPointID].LookRotation, Vector3.up);
     }
 
 
@@ -133,6 +145,22 @@ public class Core : MonoBehaviour {
                 newPart = Instantiate(PartsManager.Instance.GetPartPrefab(parts[i].PartID));
             }
             AttachAppendage(newPart, parts[i].SlotName);
+        }
+    }
+
+    private void Update()
+    {
+        if (PlayerInputEnabled) return;
+        //transform.rotation = Quaternion.RotateTowards(transform.rotation, _targetRotation, 25f);
+        if (delta < 1)
+        {
+            transform.rotation = Quaternion.Euler(Vector3.Lerp(_startRotation.eulerAngles, _targetRotation.eulerAngles, delta));
+            delta = Mathf.Clamp(delta + Time.deltaTime * 4f, 0, 1f);
+        }
+        if (delta == 1)
+        {
+            transform.rotation = Quaternion.identity;
+            transform.rotation = Quaternion.FromToRotation(_linkPoints[_tempid].transform.position - transform.position, (Vector3.up * 50) - transform.position);
         }
     }
 

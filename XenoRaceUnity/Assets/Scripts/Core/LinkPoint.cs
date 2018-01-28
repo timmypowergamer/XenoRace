@@ -18,6 +18,8 @@ public class LinkPoint : MonoBehaviour {
     }
     private Appendage _attachedItem;
 
+    public Vector3 LookRotation;
+
     private bool _isDown;
     private float _lastActivated;
 

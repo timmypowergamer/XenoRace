@@ -2177,7 +2177,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh-1750442
+  m_Name: pb_Mesh-1985710
   serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2
@@ -3973,6 +3973,25 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1ccc28238db034d47b9031e07e25827f, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1727546079 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1641615744641492, guid: c43cf559127f95547a8feea84c4bf7ac,
+    type: 2}
+  m_PrefabInternal: {fileID: 815677812}
+--- !u!114 &1727546080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1727546079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d866c069abf62b4ba4d13411426df02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AnimateEmis: 1
+  Speed: 1
+  goingUp: 1
 --- !u!1001 &1738119198
 Prefab:
   m_ObjectHideFlags: 0

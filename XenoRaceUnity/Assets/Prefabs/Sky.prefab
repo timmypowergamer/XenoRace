@@ -3317,7 +3317,7 @@ GameObject:
   - component: {fileID: 114830997509871146}
   m_Layer: 4
   m_Name: SkyCam
-  m_TagString: MainCamera
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6318,8 +6318,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1170046363275446}
-  m_LocalRotation: {x: -0.28721765, y: -0.75756556, z: -0.52223533, w: -0.26621565}
-  m_LocalPosition: {x: -0.18, y: 10.49, z: -13.79}
+  m_LocalRotation: {x: -0.40184885, y: 0.17417914, z: -0.44734788, w: -0.7797814}
+  m_LocalPosition: {x: 5.92, y: 2, z: 0.66}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4526862019813564}
@@ -6331,7 +6331,7 @@ Transform:
   - {fileID: 4543068731523836}
   m_Father: {fileID: 4516761934885466}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -39.668003, y: -246.02399, z: 67.90401}
+  m_LocalEulerAnglesHint: {x: 51.494003, y: -351.885, z: 63.603004}
 --- !u!4 &4367036215600104
 Transform:
   m_ObjectHideFlags: 1
@@ -17208,7 +17208,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _transToFollow: {fileID: 0}
-  ParallaxFactor: 0.005
+  ParallaxFactor: 0.05
 --- !u!114 &114869955087539910
 MonoBehaviour:
   m_ObjectHideFlags: 1

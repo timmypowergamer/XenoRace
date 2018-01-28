@@ -480,6 +480,7 @@ MonoBehaviour:
   _activeBool: 
   _startTrigger: blowup
   _endTrigger: 
+  ReTriggerDelay: 2
   force: 10
   radius: 0.5
   particles: {fileID: 198023578808062628}
