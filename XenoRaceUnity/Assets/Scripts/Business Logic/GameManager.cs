@@ -119,8 +119,8 @@ public class GameManager : MonoBehaviour
     /// </summary>
     private void TimedOut()
     {
-        isGameOver = true; 
-        Debug.Log("PLAYER HAS TIMED OUT"); 
+        isGameOver = true;
+        CanvasManager.instance.Get<GameOverUIPanel>(UIPanelID.GameOver).Open(); 
     }
 
     /// <summary>

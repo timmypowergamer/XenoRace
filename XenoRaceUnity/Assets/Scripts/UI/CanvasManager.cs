@@ -23,7 +23,8 @@ public enum UIPanelID
 {
     NONE = 0,
     HUD = 1,
-    Build = 2
+    Build = 2, 
+    GameOver = 3
 }
 
 [ExecuteInEditMode]
@@ -218,8 +219,6 @@ public class CanvasManager : MonoBehaviour
         worldCanvas = _worldCanvas;
         immortalScreenCanvas = _immortalScreenCanvas;
         CanvasCamera = GetComponent<Camera>();
-
-
 
 		//auto register everything under the UI manager
 		if(_autoRegister) RegisterAll(transform);
