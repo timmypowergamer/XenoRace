@@ -18,6 +18,13 @@ public class PartsManager : MonoBehaviour {
 
     private void Awake()
     {
+        if (_instance != null)
+        {
+            Destroy(gameObject);
+            return;
+        }
+        DontDestroyOnLoad(gameObject);
+
         _instance = this;
         for(int i = 0; i < _partList.Count; i++)
         {

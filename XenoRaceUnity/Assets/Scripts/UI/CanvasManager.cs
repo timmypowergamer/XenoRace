@@ -26,7 +26,6 @@ public enum UIPanelID
     Build = 2
 }
 
-[ExecuteInEditMode]
 public class CanvasManager : MonoBehaviour
 {
 	[SerializeField]
@@ -212,17 +211,19 @@ public class CanvasManager : MonoBehaviour
 
 
 
-	void Awake(){
-		if( _instance == null ) _instance = this;
-		else throw new System.Exception( "Unexpected Duplicate Canvas Manager" );
+	void Awake()
+    {
+        if (_instance != null)
+        {
+            Destroy(gameObject);
+            return;
+        }
+        DontDestroyOnLoad(gameObject);
 
-        //World canvas is not a child of CanvasManager anymore. (In general I don't like relying on transform.find() because heirarchies and names can change and break things) -EK
         screenCanvas = _screenCanvas;
         worldCanvas = _worldCanvas;
         immortalScreenCanvas = _immortalScreenCanvas;
         CanvasCamera = GetComponent<Camera>();
-
-
 
 		//auto register everything under the UI manager
 		if(_autoRegister) RegisterAll(transform);
