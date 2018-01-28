@@ -184,6 +184,11 @@ MonoBehaviour:
     Prefabs:
     - {fileID: 1766095673474978, guid: d16b2f2e08dd9ef42a45ce183b616fda, type: 2}
     canvasType: 1
+  - ModeName: HUD
+    ActiveStates: 03000000
+    Prefabs:
+    - {fileID: 1124810058260900, guid: d41b8d0427aa0b843ab17144e938494b, type: 2}
+    canvasType: 1
 --- !u!223 &223430636743590240
 Canvas:
   m_ObjectHideFlags: 1

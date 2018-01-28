@@ -2,15 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HUDUIPanel : MonoBehaviour {
+/// <summary>
+/// HUD UI Panel. Should (at time of writing) only contain a self-maintaining UI Timer.
+/// </summary>
+public class HUDUIPanel : UIPanel
+{
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 }
