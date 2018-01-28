@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: c360b194810bdef4e944ca589f730ac6
-timeCreated: 1517035399
-licenseType: Free
+timeCreated: 1517120761
+licenseType: Pro
 TextureImporter:
   fileIDToRecycleName: {}
   externalObjects: {}
@@ -49,7 +49,7 @@ TextureImporter:
   spritePixelsToUnits: 100
   alphaUsage: 1
   alphaIsTransparency: 1
-  spriteTessellationDetail: -1
+  spriteTessellationDetail: 0.5
   textureType: 8
   textureShape: 1
   maxTextureSizeSet: 0
@@ -99,7 +99,42 @@ TextureImporter:
   spriteSheet:
     serializedVersion: 2
     sprites: []
-    outline: []
+    outline:
+    - - {x: 38.5, y: -44.5}
+      - {x: 47.5, y: -34.5}
+      - {x: 52.5, y: -25.5}
+      - {x: 54.5, y: -20.5}
+      - {x: 55.5, y: -17.5}
+      - {x: 55.5, y: 17.5}
+      - {x: 54.5, y: 20.5}
+      - {x: 52.5, y: 25.5}
+      - {x: 44.5, y: 38.5}
+      - {x: 34.5, y: 47.5}
+      - {x: 25.5, y: 52.5}
+      - {x: 20.5, y: 54.5}
+      - {x: 17.5, y: 55.5}
+      - {x: -17.5, y: 55.5}
+      - {x: -20.5, y: 54.5}
+      - {x: -25.5, y: 52.5}
+      - {x: -30.5, y: 49.5}
+      - {x: -38.5, y: 44.5}
+      - {x: -47.5, y: 34.5}
+      - {x: -52.5, y: 25.5}
+      - {x: -54.5, y: 20.5}
+      - {x: -55.5, y: 17.5}
+      - {x: -55.5, y: -17.5}
+      - {x: -54.5, y: -20.5}
+      - {x: -52.5, y: -25.5}
+      - {x: -49.5, y: -30.5}
+      - {x: -44.5, y: -38.5}
+      - {x: -34.5, y: -47.5}
+      - {x: -25.5, y: -52.5}
+      - {x: -20.5, y: -54.5}
+      - {x: -17.5, y: -55.5}
+      - {x: 17.5, y: -55.5}
+      - {x: 20.5, y: -54.5}
+      - {x: 25.5, y: -52.5}
+      - {x: 30.5, y: -49.5}
     physicsShape: []
   spritePackingTag: 
   userData: 
