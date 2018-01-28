@@ -19,7 +19,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4411911202899750}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MCH-thumb.01.R.tip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34,7 +34,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4440553643249696}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MCH-upper_arm.fk.R.socket1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49,7 +49,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4748159063422358}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: f_ring.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -66,7 +66,7 @@ GameObject:
   - component: {fileID: 4828764142467582}
   - component: {fileID: 33778918843394578}
   - component: {fileID: 23746655444560772}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WGT-VIS-upper_arm_pole.ik.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -81,7 +81,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4875690774853540}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DEF-f_middle.01.R.02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -96,7 +96,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4083853236664322}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DEF-f_ring.03.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -111,7 +111,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4726299834172020}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DEF-f_ring.03.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -127,7 +127,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4418774260219812}
   - component: {fileID: 137983794266676204}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Circle.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -142,7 +142,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4851764236812966}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: shoulder.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -157,7 +157,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4974244766933484}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ORG-palm.02.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -172,7 +172,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4138822429762014}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DEF-palm.01.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -187,7 +187,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4204627216677582}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: elbow_target.ik.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -202,7 +202,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4612986276542218}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DEF-f_ring.02.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -217,7 +217,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4749496997744942}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MCH-hand.R.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -232,7 +232,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4159403987209768}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: thumb.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -247,7 +247,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4745074028004436}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: VIS-hand.ik.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -262,7 +262,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4954241483844786}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MCH-shoulder_ik_ns_intr.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -277,7 +277,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4580805742781916}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: f_index.02.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -292,7 +292,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4656508197845106}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MCH-f_middle.03.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -307,7 +307,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4514699052274878}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MCH-f_pinky.01.R.tip_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -322,7 +322,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4849432508550706}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: f_index.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -337,7 +337,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4413259978039160}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DEF-f_pinky.01.R.02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -354,7 +354,7 @@ GameObject:
   - component: {fileID: 4049764801216308}
   - component: {fileID: 33579103333946902}
   - component: {fileID: 23996017360425530}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WGT-f_ring.03.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -369,7 +369,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4983501653429256}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MCH-upper_arm_smth.02.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -384,7 +384,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4488585916458924}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MCH-upper_arm_antistr.fk.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -399,7 +399,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4782415581862186}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DEF-upper_arm.02.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -414,7 +414,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4720307222042438}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MCH-elbow_hose_p.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -431,7 +431,7 @@ GameObject:
   - component: {fileID: 4423112374442784}
   - component: {fileID: 33650193024722580}
   - component: {fileID: 23925426371230880}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WGT-f_ring.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -446,7 +446,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4226035036928172}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DEF-forearm.02.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -461,7 +461,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4216177800381582}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DEF-palm.03.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -476,7 +476,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4473793397119504}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MCH-forearm.stretch.ik.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -494,7 +494,7 @@ GameObject:
   - component: {fileID: 33799572505775106}
   - component: {fileID: 136354048488105704}
   - component: {fileID: 23790212573755940}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Capsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -511,7 +511,7 @@ GameObject:
   - component: {fileID: 4656029793378548}
   - component: {fileID: 33204600450823370}
   - component: {fileID: 23556148103015052}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WGT-f_index.03.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -526,7 +526,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4978287305163518}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MCH-forearm_hose_end_p.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -541,7 +541,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4834059453412256}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: VIS-upper_arm_pole.ik.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -558,7 +558,7 @@ GameObject:
   - component: {fileID: 4142871923888934}
   - component: {fileID: 33680141700190506}
   - component: {fileID: 23335334578704938}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WGT-f_middle.02.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -573,7 +573,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4867345729440190}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MCH-upper_arm.stretch.ik.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -588,7 +588,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4832355222764246}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MCH-elbow_target.ik_parent.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -603,7 +603,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4664443524993306}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DEF-shoulder.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -618,7 +618,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4177288251503690}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MCH-f_ring.02.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -633,7 +633,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4688106272347258}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DEF-palm.02.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -648,7 +648,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4618044592978692}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ORG-palm.01.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -663,7 +663,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4515343234279064}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: upper_arm.fk.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -678,7 +678,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4147437163809842}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MCH-hand.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -693,7 +693,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4209859714519060}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: hand.fk.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -708,7 +708,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4611502359115036}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MCH-f_index.01.R.tip_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -723,7 +723,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4174052965110378}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MCH-upper_arm.stretch.ik.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -738,7 +738,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4877795513426144}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DEF-f_middle.02.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -753,7 +753,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4774034163624174}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ORG-f_pinky.02.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -768,7 +768,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4281777356308724}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MCH-forearm_smth.01.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -783,7 +783,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4365932968145086}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DEF-thumb.03.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -798,7 +798,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4384820989797524}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: f_pinky.02.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -813,7 +813,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4538271693060070}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DEF-f_index.03.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -828,7 +828,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4339508018276666}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ORG-f_middle.01.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -843,7 +843,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4656064303932000}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ORG-upper_arm.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -860,7 +860,7 @@ GameObject:
   - component: {fileID: 4297177011877332}
   - component: {fileID: 33855463370627938}
   - component: {fileID: 23415820100672804}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WGT-f_ring.02.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -875,7 +875,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4753241696035960}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MCH-shoulder_ik_ns_ch.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -890,7 +890,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4627676781472346}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DEF-hand.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -905,7 +905,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4263437230795354}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DEF-thumb.01.R.02_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -920,7 +920,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4787959836070396}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: f_middle.03.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -935,7 +935,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4496700964035072}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DEF-f_index.01.R.01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -950,7 +950,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4183549868466012}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DEF-f_middle.03.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -965,7 +965,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4742589058601718}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MCH-forearm.stretch.ik.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -982,7 +982,7 @@ GameObject:
   - component: {fileID: 4825553777667512}
   - component: {fileID: 33262341561405522}
   - component: {fileID: 23996224009141332}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WGT-VIS-hand.ik.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -997,7 +997,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4467281890701904}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: forearm_hose.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1014,7 +1014,7 @@ GameObject:
   - component: {fileID: 4148464048175794}
   - component: {fileID: 33358942334762734}
   - component: {fileID: 23466684194930228}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WGT-f_middle.03.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1031,7 +1031,7 @@ GameObject:
   - component: {fileID: 4747984911173766}
   - component: {fileID: 33928140576506928}
   - component: {fileID: 23142595202687970}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WGT-f_pinky.03.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1046,7 +1046,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4064499360777532}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MCH-f_middle.01.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1061,7 +1061,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4778497814201528}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MCH-forearm.ik.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1079,7 +1079,7 @@ GameObject:
   - component: {fileID: 95639373885396340}
   - component: {fileID: 82684690858284736}
   - component: {fileID: 114868142380211664}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: HomerHand 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1094,7 +1094,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4657011936254340}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MCH-upper_arm_hose_end_p.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1109,7 +1109,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4863678583929810}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: f_middle.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1124,7 +1124,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4858979753835132}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MCH-thumb.02.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1141,7 +1141,7 @@ GameObject:
   - component: {fileID: 4831053969947064}
   - component: {fileID: 33352534888987642}
   - component: {fileID: 23744613906838946}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WGT-forearm.fk.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1156,7 +1156,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4865813302617904}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MCH-thumb.01.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1171,7 +1171,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4644631398551944}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MCH-shoulder_fk_ns_intr.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1186,7 +1186,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4269026890734470}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DEF-f_pinky.03.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1201,7 +1201,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4749656778735324}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MCH-thumb.03.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1216,7 +1216,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4518375343965564}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MCH-f_middle.01.R.tip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1231,7 +1231,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4249341927060878}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ORG-thumb.02.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1246,7 +1246,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4575950434134954}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MCH-forearm.nostr.ik.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1261,7 +1261,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4957001863955024}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MCH-f_ring.01.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1276,7 +1276,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4036451123975440}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: upper_arm_hose_end.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1291,7 +1291,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4684606793287902}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DEF-palm.03.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1308,7 +1308,7 @@ GameObject:
   - component: {fileID: 4310451772069788}
   - component: {fileID: 33079699567586894}
   - component: {fileID: 23225902975021516}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WGT-shoulder.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1323,7 +1323,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4861808629903674}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ORG-f_pinky.01.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1338,7 +1338,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4355207015466684}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: palm.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1354,7 +1354,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4709733792760194}
   - component: {fileID: 114936333985553570}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: HandSpinner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1369,7 +1369,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4250422165284010}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: f_index.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1384,7 +1384,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4665629980977862}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: upper_arm_hose.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1399,7 +1399,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4009189528625738}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DEF-thumb.02.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1414,7 +1414,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4773774741445320}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: f_pinky.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1429,7 +1429,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4915056550837632}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: forearm_hose_end.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1444,7 +1444,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4681556703055860}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DEF-f_ring.01.R.02_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1461,7 +1461,7 @@ GameObject:
   - component: {fileID: 4466455737272380}
   - component: {fileID: 33985146229015080}
   - component: {fileID: 23692376169570430}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WGT-f_index.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1476,7 +1476,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4623032753993528}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ORG-f_index.03.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1491,7 +1491,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4123586624561502}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: f_middle.03.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1506,7 +1506,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4057743399849620}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: f_index.03.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1521,7 +1521,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4131917452498380}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MCH-hand.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1538,7 +1538,7 @@ GameObject:
   - component: {fileID: 4991440819224052}
   - component: {fileID: 33934508173767034}
   - component: {fileID: 23474113437172068}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WGT-elbow_hose.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1553,7 +1553,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4506862462801270}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MCH-forearm.junc.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1568,7 +1568,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4813447076396254}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: shoulder.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1583,7 +1583,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4898967924976532}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MCH-upper_arm.fk.R.socket2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1598,7 +1598,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4706371348829014}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DEF-f_ring.01.R.01_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1613,7 +1613,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4180514444421602}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ORG-f_index.01.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1628,7 +1628,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4415157034204742}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MCH-forearm.01.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1643,7 +1643,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4060486616265478}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DEF-palm.02.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1658,7 +1658,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4315075543335836}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: elbow_target.ik.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1673,7 +1673,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4393282105222524}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DEF-f_pinky.01.R.01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1688,7 +1688,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4381377770796204}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MCH-upper_arm_smth.02.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1703,7 +1703,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4132679932599104}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DEF-forearm.02.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1718,7 +1718,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4761622389789404}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DEF-forearm.01.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1733,7 +1733,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4396450676526070}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MCH-f_index.01.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1748,7 +1748,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4968396479325752}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MCH-upper_arm_hose_p.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1763,7 +1763,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4131096287922000}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DEF-f_ring.01.R.01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1778,7 +1778,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4122524899329468}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MCH-f_middle.02.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1793,7 +1793,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4791127566281292}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MCH-f_index.02.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1810,7 +1810,7 @@ GameObject:
   - component: {fileID: 4015619126930282}
   - component: {fileID: 33869677990632832}
   - component: {fileID: 23485003368626672}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WGT-forearm_hose_end.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1825,7 +1825,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4819146465893798}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: elbow_hose.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1840,7 +1840,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4637610400671662}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DEF-f_middle.03.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1855,7 +1855,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4470236658510000}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DEF-f_index.01.R.02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1870,7 +1870,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4685206821427748}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: thumb.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1885,7 +1885,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4492939336050954}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: f_ring.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1902,7 +1902,7 @@ GameObject:
   - component: {fileID: 4224948384242746}
   - component: {fileID: 33306461123573634}
   - component: {fileID: 23830147666038836}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WGT-hand.fk.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1917,7 +1917,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4261728055304762}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DEF-f_index.02.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1932,7 +1932,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4572025751138678}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: upper_arm_hose_end.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1947,7 +1947,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4211070608289782}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MCH-thumb.01.R.tip_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1962,7 +1962,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4128747764578094}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MCH-forearm.nostr.ik.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1977,7 +1977,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4303195520622918}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MCH-forearm.ik.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1992,7 +1992,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4332600066057950}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MCH-forearm_antistr.fk.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2007,7 +2007,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4979703637534634}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MCH-f_index.03.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2022,7 +2022,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4896228983051240}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DEF-upper_arm.01.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2040,7 +2040,7 @@ GameObject:
   - component: {fileID: 33339049759857346}
   - component: {fileID: 136252454716691278}
   - component: {fileID: 23335804926937566}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Capsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2057,7 +2057,7 @@ GameObject:
   - component: {fileID: 4992270500851534}
   - component: {fileID: 33120901442818470}
   - component: {fileID: 23593422510644746}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WGT-elbow_target.ik.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2072,7 +2072,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4738335379978564}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: f_pinky.03.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2089,7 +2089,7 @@ GameObject:
   - component: {fileID: 4869597629807478}
   - component: {fileID: 33287461607120860}
   - component: {fileID: 23831811743526148}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WGT-f_pinky.01.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2104,7 +2104,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4975988540402482}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DEF-hand.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2119,7 +2119,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4602264943927274}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: f_ring.02.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2134,7 +2134,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4310767626765450}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: f_ring.01.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2149,7 +2149,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4032141841313068}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: f_ring.03.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2164,7 +2164,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4971518272847678}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DEF-f_index.02.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2179,7 +2179,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4508921358155410}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MCH-forearm.junc.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2194,7 +2194,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4814493554265710}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: f_index.01.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2211,7 +2211,7 @@ GameObject:
   - component: {fileID: 4194665146565962}
   - component: {fileID: 33997189320535962}
   - component: {fileID: 23237610702903534}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WGT-upper_arm.fk.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2226,7 +2226,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4131632960247548}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: f_ring.03.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2241,7 +2241,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4517055522134120}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ORG-thumb.01.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2256,7 +2256,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4655502851654290}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ORG-palm.03.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2271,7 +2271,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4013344838378696}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MCH-upper_arm.ik.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2286,7 +2286,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4321813298181460}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MCH-upper_arm.nostr.ik.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2301,7 +2301,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4099383392166042}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: f_middle.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2316,7 +2316,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4179830538353146}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DEF-palm.04.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2331,7 +2331,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4744442851819090}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MCH-f_pinky.02.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2349,7 +2349,7 @@ GameObject:
   - component: {fileID: 33934287956927888}
   - component: {fileID: 136173714145260508}
   - component: {fileID: 23740355213621104}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Capsule (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2364,7 +2364,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4993811619230946}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ORG-hand.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2379,7 +2379,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4753313326641214}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MCH-hand.R.001_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2394,7 +2394,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4356717750341196}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: upper_arm_hose.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2409,7 +2409,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4243104301465226}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DEF-thumb.01.R.02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2424,7 +2424,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4551959407647030}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MCH-shoulder_fk_ns_intr.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2441,7 +2441,7 @@ GameObject:
   - component: {fileID: 4743744670181678}
   - component: {fileID: 33039466751374582}
   - component: {fileID: 23272650593210408}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WGT-upper_arm_hose.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2456,7 +2456,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4176351747311236}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DEF-f_pinky.03.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2471,7 +2471,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4530885593448472}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: thumb.02.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2486,7 +2486,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4363148398756498}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: hand.ik.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2501,7 +2501,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4533062179217762}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: thumb.03.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2516,7 +2516,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4479940715569740}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DEF-f_pinky.02.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2531,7 +2531,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4290680225033516}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: thumb.01.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2546,7 +2546,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4616426615195168}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ORG-f_middle.03.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2561,7 +2561,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4266740734084436}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: root
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2576,7 +2576,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4443686513294100}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DEF-f_pinky.01.R.02_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2591,7 +2591,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4748746051575840}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MCH-f_middle.01.R.tip_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2606,7 +2606,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4455186817868382}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DEF-forearm.01.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2621,7 +2621,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4138543676544004}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MCH-f_pinky.01.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2638,7 +2638,7 @@ GameObject:
   - component: {fileID: 4603944916441836}
   - component: {fileID: 33186831017631166}
   - component: {fileID: 23622468196234008}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WGT-upper_arm_hose_end.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2653,7 +2653,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4154348241356540}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ORG-f_middle.02.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2668,7 +2668,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4393785542564384}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DEF-shoulder.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2683,7 +2683,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4072004520794180}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DEF-f_middle.02.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2698,7 +2698,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4596838556143778}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ORG-f_ring.01.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2713,7 +2713,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4753441536120388}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MCH-shoulder_rh_ns_intr.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2728,7 +2728,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4200912657915566}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ORG-f_ring.03.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2746,7 +2746,7 @@ GameObject:
   - component: {fileID: 33414855406791116}
   - component: {fileID: 136871666131368302}
   - component: {fileID: 23091352669344604}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Capsule (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2763,7 +2763,7 @@ GameObject:
   - component: {fileID: 4673507825916522}
   - component: {fileID: 33717367207828886}
   - component: {fileID: 23926132062210590}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WGT-f_middle.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2778,7 +2778,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4774913553968074}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MCH-shoulder_rh_ns_intr.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2793,7 +2793,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4285353247823242}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DEF-f_index.03.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2808,7 +2808,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4279252508173598}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MCH-f_ring.03.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2823,7 +2823,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4512129225622176}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: f_index.03.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2838,7 +2838,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4639933370419890}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DEF-thumb.02.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2853,7 +2853,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4410371037769380}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DEF-f_index.01.R.01_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2868,7 +2868,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4871047154255422}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: elbow_hose.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2883,7 +2883,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4834350044688180}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ORG-f_pinky.03.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2898,7 +2898,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4155513863734294}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: VIS-upper_arm_pole.ik.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2913,7 +2913,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4964171548613372}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MCH-shoulder_ik_ns_intr.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2930,7 +2930,7 @@ GameObject:
   - component: {fileID: 4441154763839304}
   - component: {fileID: 33272251156758024}
   - component: {fileID: 23066611535145870}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WGT-thumb.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2945,7 +2945,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4954915992123458}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DEF-f_index.01.R.02_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2960,7 +2960,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4397522363960750}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DEF-f_pinky.02.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2975,7 +2975,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4457375433531852}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MCH-upper_arm.fk.R.socket1_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2990,7 +2990,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4866033849819314}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: forearm.fk.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3005,7 +3005,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4103170744064042}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MCH-shoulder_rh_ns_ch.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3020,7 +3020,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4327011930972296}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MCH-f_pinky.03.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3035,7 +3035,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4637610598937080}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: forearm_hose_end.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3053,7 +3053,7 @@ GameObject:
   - component: {fileID: 33516586547031148}
   - component: {fileID: 136814833381504060}
   - component: {fileID: 23078192373053850}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Capsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3068,7 +3068,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4419495703631324}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DEF-f_ring.01.R.02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3083,7 +3083,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4057502398009526}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DEF-thumb.01.R.01_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3100,7 +3100,7 @@ GameObject:
   - component: {fileID: 4108366595451328}
   - component: {fileID: 33476708327358786}
   - component: {fileID: 23161981971755400}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WGT-root
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3115,7 +3115,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4418050540757466}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: f_middle.01.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3130,7 +3130,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4879126543660050}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MCH-f_ring.01.R.tip_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3147,7 +3147,7 @@ GameObject:
   - component: {fileID: 4009214276911448}
   - component: {fileID: 33321911326950568}
   - component: {fileID: 23478861582456222}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WGT-f_middle.01.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3162,7 +3162,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4057929674920068}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DEF-thumb.01.R.01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3177,7 +3177,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4994496852692020}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: forearm_hose.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3192,7 +3192,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4644629505778774}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MCH-f_index.01.R.tip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3207,7 +3207,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4944382436206026}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DEF-f_middle.01.R.02_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3222,7 +3222,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4292201249635940}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DEF-f_ring.02.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3239,7 +3239,7 @@ GameObject:
   - component: {fileID: 4126006568530084}
   - component: {fileID: 33244563728767708}
   - component: {fileID: 23119619364868930}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WGT-f_pinky.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3254,7 +3254,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4738406647121044}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ORG-f_index.02.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3269,7 +3269,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4840518078108056}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MCH-shoulder_fk_ns_ch.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3284,7 +3284,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4783657562540746}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DEF-palm.04.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3299,7 +3299,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4259406670812554}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DEF-thumb.03.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3314,7 +3314,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4924366092360186}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: palm.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3329,7 +3329,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4154455842367020}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MCH-f_ring.01.R.tip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3344,7 +3344,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4332748796393808}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DEF-f_middle.01.R.01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3361,7 +3361,7 @@ GameObject:
   - component: {fileID: 4430599829953088}
   - component: {fileID: 33235037998888574}
   - component: {fileID: 23305583123395312}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WGT-palm.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3376,7 +3376,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4246553835576870}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DEF-upper_arm.01.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3391,7 +3391,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4133169762885244}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ORG-shoulder.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3408,7 +3408,7 @@ GameObject:
   - component: {fileID: 4365656886227678}
   - component: {fileID: 33418395192023172}
   - component: {fileID: 23017901751647634}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WGT-f_pinky.02.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3423,7 +3423,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4611790698358236}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: rig
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3438,7 +3438,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4365305034374806}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: f_middle.02.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3453,7 +3453,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4447160633476974}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ORG-f_ring.02.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3468,7 +3468,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4166912984913976}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ORG-thumb.03.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3483,7 +3483,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4828687855341162}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: f_pinky.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3498,7 +3498,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4374239008954096}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DEF-f_pinky.01.R.01_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3513,7 +3513,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4206280843177130}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: f_pinky.03.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3528,7 +3528,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4225065405634440}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: f_pinky.01.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3545,7 +3545,7 @@ GameObject:
   - component: {fileID: 4435011662277172}
   - component: {fileID: 33605813125571364}
   - component: {fileID: 23881571515121920}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WGT-thumb.03.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3562,7 +3562,7 @@ GameObject:
   - component: {fileID: 4594870956855130}
   - component: {fileID: 33048312962200162}
   - component: {fileID: 23559209012251578}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WGT-thumb.01.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3577,7 +3577,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4997619879484110}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DEF-palm.01.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3592,7 +3592,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4973934892486080}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ORG-forearm.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3609,7 +3609,7 @@ GameObject:
   - component: {fileID: 4755342863002360}
   - component: {fileID: 33052127312097618}
   - component: {fileID: 23236801990452202}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WGT-f_ring.01.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3624,7 +3624,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4698959426954204}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MCH-f_pinky.01.R.tip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3641,7 +3641,7 @@ GameObject:
   - component: {fileID: 4226276574259074}
   - component: {fileID: 33046010590159346}
   - component: {fileID: 23994286990913884}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WGT-thumb.02.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3658,7 +3658,7 @@ GameObject:
   - component: {fileID: 4163257283872828}
   - component: {fileID: 33120211705311686}
   - component: {fileID: 23164713295976568}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WGT-f_index.01.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3673,7 +3673,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4904984383968130}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DEF-f_middle.01.R.01_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3688,7 +3688,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4824248158627508}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ORG-palm.04.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3705,7 +3705,7 @@ GameObject:
   - component: {fileID: 4912998656308920}
   - component: {fileID: 33837841152058760}
   - component: {fileID: 23635982738879830}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WGT-forearm_hose.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3720,7 +3720,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4334566852442338}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MCH-forearm_hose_p.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3737,7 +3737,7 @@ GameObject:
   - component: {fileID: 4126423924928552}
   - component: {fileID: 33623536081794210}
   - component: {fileID: 23590887761826884}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WGT-f_index.02.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3752,7 +3752,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4417374991680250}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: thumb.03.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3767,7 +3767,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4456282945692740}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: VIS-hand.ik.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3784,7 +3784,7 @@ GameObject:
   - component: {fileID: 4179690690755682}
   - component: {fileID: 33964542140974738}
   - component: {fileID: 23735804415398798}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WGT-hand.ik.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5286,7 +5286,7 @@ Transform:
   m_GameObject: {fileID: 1271137283767194}
   m_LocalRotation: {x: -0, y: -0, z: -0.22697037, w: 0.9739017}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.10000001, y: 0.10000001, z: 0.1}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_Children:
   - {fileID: 4418774260219812}
   - {fileID: 4611790698358236}
@@ -7265,13 +7265,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1708673049539832}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0.00000010232429, y: -0.00000006186285, z: -0.17310195, w: 0.98490393}
   m_LocalPosition: {x: 0.00059, y: 0.01065, z: -0.00049}
-  m_LocalScale: {x: 0.010000005, y: 0.019999994, z: 0.030000016}
+  m_LocalScale: {x: 0.014829942, y: 0.029659858, z: 0.044489823}
   m_Children: []
   m_Father: {fileID: 4684606793287902}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -19.936}
 --- !u!23 &23017901751647634
 MeshRenderer:
   m_ObjectHideFlags: 1
@@ -9032,7 +9032,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3531f1640f4c52a4199a4352f0527b96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _id: 
+  _id: Hand
   Icon: {fileID: 21300010, guid: f4852369c3be099458338b224c27e86f, type: 3}
   _animator: {fileID: 95639373885396340}
   _activeBool: 
@@ -9100,7 +9100,7 @@ CapsuleCollider:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1708673049539832}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: e52fb17f9b1e7fd48b8955f1391d3688, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.5

@@ -19,8 +19,7 @@ public class Flapper : Appendage {
     public override void OnActivateStart()
     {
         base.OnActivateStart();
-        RaycastHit hitInfo;
-        if(Physics.SphereCast(ForceOrigin.position, ForceHitRadius, Vector3.zero, out hitInfo, 0, LayerMask.NameToLayer("Default")))
+        if(Physics.Raycast(ForceOrigin.position, ForceOrigin.up, ForceHitRadius))
         {
             _coreRB.AddForce(-ForceOrigin.up * ImpulseSpeed);
         }

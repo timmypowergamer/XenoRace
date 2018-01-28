@@ -553,7 +553,10 @@ MonoBehaviour:
   _activeBool: twitchEnter
   _startTrigger: 
   _endTrigger: 
+  ReTriggerDelay: 0
   ImpulseSpeed: 0
+  ForceOrigin: {fileID: 0}
+  ForceHitRadius: 0.2
 --- !u!135 &135293812062914600
 SphereCollider:
   m_ObjectHideFlags: 1

@@ -304,7 +304,10 @@ MonoBehaviour:
   _activeBool: 
   _startTrigger: spike
   _endTrigger: 
+  ReTriggerDelay: 2
   ImpulseSpeed: 330
+  ForceOrigin: {fileID: 4628319288317154}
+  ForceHitRadius: 1
 --- !u!114 &114992393294667004
 MonoBehaviour:
   m_ObjectHideFlags: 1

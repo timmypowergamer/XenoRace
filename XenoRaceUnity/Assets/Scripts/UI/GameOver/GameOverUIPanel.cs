@@ -23,17 +23,20 @@ public class GameOverUIPanel : UIPanel
         base.Open(transitionTrigger);
 
         selectedButton.Select();
-        message.text = GameManager.Instance.GameOverMessage; 
+        message.text = GameManager.Instance.GameOverMessage;
+        Time.timeScale = 0f;
     }
 
     public void Build()
     {
+        Time.timeScale = 1f;
         GameManager.Instance.BackToBuild(); 
         Close(); 
     }
 
     public void Retry()
     {
+        Time.timeScale = 1f;
         GameManager.Instance.RetryLevel(); 
         Close(); 
     }
