@@ -19,7 +19,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4628319288317154}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: root_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35,7 +35,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4505911166288734}
   - component: {fileID: 114552458357249070}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: spiker
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50,7 +50,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4498302499037580}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: root
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -69,7 +69,7 @@ GameObject:
   - component: {fileID: 136311680327613490}
   - component: {fileID: 82830158174717172}
   - component: {fileID: 114992393294667004}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: spiker
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -85,7 +85,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4801374217633532}
   - component: {fileID: 137552168968609726}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: spiker
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -100,7 +100,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4882110271613330}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: spikerArmature
   m_TagString: Untagged
   m_Icon: {fileID: 0}
