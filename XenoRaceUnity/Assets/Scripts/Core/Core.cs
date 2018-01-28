@@ -9,6 +9,13 @@ public class Core : MonoBehaviour {
 
     public static Core Instance;
 
+    [System.Serializable]
+    public struct PartsData
+    {
+        public string SlotName;
+        public string PartID;
+    }
+
     public bool PlayerInputEnabled = false;
 
     private Dictionary<string, LinkPoint> _linkPoints = new Dictionary<string, LinkPoint>();
@@ -26,6 +33,11 @@ public class Core : MonoBehaviour {
             {
                 AttachAppendage(attached, points[i].ID);
             }
+        }
+
+        if(LevelManager.Instance != null && LevelManager.Instance.PartsList != null)
+        {
+            SetPartsData(LevelManager.Instance.PartsList);
         }
     }
 
@@ -64,7 +76,6 @@ public class Core : MonoBehaviour {
         }
         if (_linkPoints[linkPointID].AttachedItem == null)
         {
-            Debug.LogError($"'{linkPointID}' does not have an attachment to remove!");
             return;
         }
 
@@ -82,5 +93,41 @@ public class Core : MonoBehaviour {
 
         transform.rotation = Quaternion.identity;
         transform.rotation = Quaternion.FromToRotation(_linkPoints[linkPointID].transform.position - transform.position, Camera.main.transform.position - transform.position);
+    }
+
+
+    public List<PartsData> GetPartsData()
+    {
+        List<PartsData> parts = new List<PartsData>();
+        foreach(KeyValuePair<string, LinkPoint> kvp in _linkPoints)
+        {
+            string partID = "";
+            if (kvp.Value.AttachedItem != null) partID = kvp.Value.AttachedItem.ID;
+            parts.Add(new PartsData() { SlotName = kvp.Key, PartID = partID });
+        }
+        return parts;
+    }
+
+    public void SetPartsData(List<PartsData> parts)
+    {
+        for (int i = 0; i < parts.Count; i++)
+        {
+            Appendage newPart = null;
+            if (!string.IsNullOrEmpty(parts[i].PartID))
+            {
+                newPart = Instantiate(PartsManager.Instance.GetPartPrefab(parts[i].PartID));
+            }
+            AttachAppendage(newPart, parts[i].SlotName);
+        }
+    }
+
+    /// <summary>
+    /// Enable or disable the player's ability to provide input. 
+    /// </summary>
+    /// <param name="enable">If true, we should allow the player to give the core input. Otherwise, we should not.</param>
+    public void EnablePlayerInput(bool enable)
+    {
+        // Concern: Global Side Effects
+        this.PlayerInputEnabled = enable; 
     }
 }
