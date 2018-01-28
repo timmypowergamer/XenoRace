@@ -162,7 +162,7 @@ public class GameManager : MonoBehaviour
     public void PlayerEnteredGoal()
     {
         isGameOver = true;
-        this.SetMessage("You win! You beat the alien derby!"); 
+        SetMessage("You win! You beat the alien derby!"); 
         CanvasManager.instance.Get<GameOverUIPanel>(UIPanelID.GameOver).Open();
         Core.Instance.EnablePlayerInput(false);
     }

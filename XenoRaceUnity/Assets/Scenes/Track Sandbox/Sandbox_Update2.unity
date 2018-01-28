@@ -118,7 +118,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh-1928
+  m_Name: pb_Mesh-1768
   serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2
@@ -290,7 +290,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh-1922
+  m_Name: pb_Mesh-1762
   serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2
@@ -1096,15 +1096,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4897277625437896, guid: c25f8838ef582ef48ae5201775a621b6, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 0.53
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4897277625437896, guid: c25f8838ef582ef48ae5201775a621b6, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 4.02
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 4897277625437896, guid: c25f8838ef582ef48ae5201775a621b6, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 12.9
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4897277625437896, guid: c25f8838ef582ef48ae5201775a621b6, type: 2}
       propertyPath: m_LocalRotation.x
