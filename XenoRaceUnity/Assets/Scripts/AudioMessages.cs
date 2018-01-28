@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class AudioMessages : MonoBehaviour
 {
+    [Header("Send 'Starting' or 'Stopping' messages.")]
     public AudioSource clip;
 
 	void Starting () {
