@@ -29,6 +29,7 @@ public class UIBuildPartIcon : Button {
     {
         base.OnSubmit(eventData);
         _parentPanel.SelectPart(this);
+        _parentPanel.SelectSlot(null);
     }
 
     

@@ -34,20 +34,20 @@ public class UIBuildSlot : Button {
     public override void OnSelect(BaseEventData eventData)
     {
         base.OnSelect(eventData);
-        if(_selectedPart != null)
-        {
-            _selectedPart.OnSelect(null);
-        }
+        //if(_selectedPart != null)
+        //{
+        //    _selectedPart.OnSelect(null);
+        //}
         Core.Instance.ShowLinkPoint(_linkPointID);
     }
 
     public override void OnDeselect(BaseEventData eventData)
     {
         base.OnDeselect(eventData);
-        if(_selectedPart != null)
-        {
-            _selectedPart.OnDeselect(null);
-        }
+        //if(_selectedPart != null)
+        //{
+        //    _selectedPart.OnDeselect(null);
+        //}
     }
 
     public void SetSelectedPart(UIBuildPartIcon part)

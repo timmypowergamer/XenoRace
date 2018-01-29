@@ -9,6 +9,9 @@ public class LinkPoint : MonoBehaviour {
     [SerializeField]
     private string _mappedButton;
 
+    [SerializeField]
+    private SpriteRenderer _icon;
+
     public Appendage AttachedItem
     {
         get
@@ -70,5 +73,10 @@ public class LinkPoint : MonoBehaviour {
         }
 
         _attachedItem = attachment;
+
+        if (_icon != null)
+        {
+            _icon.gameObject.SetActive(_attachedItem != null);
+        }
     }
 }

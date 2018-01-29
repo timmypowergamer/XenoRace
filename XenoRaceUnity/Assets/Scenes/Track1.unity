@@ -1466,9 +1466,69 @@ Prefab:
       propertyPath: m_RootOrder
       value: 12
       objectReference: {fileID: 0}
+    - target: {fileID: 114827940914294992, guid: c25f8838ef582ef48ae5201775a621b6,
+        type: 2}
+      propertyPath: _icon
+      value: 
+      objectReference: {fileID: 740797053}
+    - target: {fileID: 114054608964447806, guid: c25f8838ef582ef48ae5201775a621b6,
+        type: 2}
+      propertyPath: _icon
+      value: 
+      objectReference: {fileID: 740797052}
+    - target: {fileID: 114722760954594318, guid: c25f8838ef582ef48ae5201775a621b6,
+        type: 2}
+      propertyPath: _icon
+      value: 
+      objectReference: {fileID: 740797051}
+    - target: {fileID: 114378554447803852, guid: c25f8838ef582ef48ae5201775a621b6,
+        type: 2}
+      propertyPath: _icon
+      value: 
+      objectReference: {fileID: 740797050}
+    - target: {fileID: 114848228900697236, guid: c25f8838ef582ef48ae5201775a621b6,
+        type: 2}
+      propertyPath: _icon
+      value: 
+      objectReference: {fileID: 740797049}
+    - target: {fileID: 114510809606770984, guid: c25f8838ef582ef48ae5201775a621b6,
+        type: 2}
+      propertyPath: _icon
+      value: 
+      objectReference: {fileID: 740797048}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c25f8838ef582ef48ae5201775a621b6, type: 2}
   m_IsPrefabParent: 0
+--- !u!212 &740797048 stripped
+SpriteRenderer:
+  m_PrefabParentObject: {fileID: 212926174024033396, guid: c25f8838ef582ef48ae5201775a621b6,
+    type: 2}
+  m_PrefabInternal: {fileID: 740797047}
+--- !u!212 &740797049 stripped
+SpriteRenderer:
+  m_PrefabParentObject: {fileID: 212370354982103570, guid: c25f8838ef582ef48ae5201775a621b6,
+    type: 2}
+  m_PrefabInternal: {fileID: 740797047}
+--- !u!212 &740797050 stripped
+SpriteRenderer:
+  m_PrefabParentObject: {fileID: 212385823151694980, guid: c25f8838ef582ef48ae5201775a621b6,
+    type: 2}
+  m_PrefabInternal: {fileID: 740797047}
+--- !u!212 &740797051 stripped
+SpriteRenderer:
+  m_PrefabParentObject: {fileID: 212922878311485194, guid: c25f8838ef582ef48ae5201775a621b6,
+    type: 2}
+  m_PrefabInternal: {fileID: 740797047}
+--- !u!212 &740797052 stripped
+SpriteRenderer:
+  m_PrefabParentObject: {fileID: 212203101000327996, guid: c25f8838ef582ef48ae5201775a621b6,
+    type: 2}
+  m_PrefabInternal: {fileID: 740797047}
+--- !u!212 &740797053 stripped
+SpriteRenderer:
+  m_PrefabParentObject: {fileID: 212760166935938896, guid: c25f8838ef582ef48ae5201775a621b6,
+    type: 2}
+  m_PrefabInternal: {fileID: 740797047}
 --- !u!1001 &787952659
 Prefab:
   m_ObjectHideFlags: 0
